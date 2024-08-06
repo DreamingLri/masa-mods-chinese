@@ -8,7 +8,7 @@
     "itemscroller.gui.label.trades": "交易",
     "itemscroller.gui.label.trade_uses": "交易使用: %d / %",
     
-    	"itemscroller.message.toggled_mod_off": "Item Scroller功能调整为： §c关闭",
+    "itemscroller.message.toggled_mod_off": "Item Scroller功能调整为： §c关闭",
 	"itemscroller.message.toggled_mod_on": "tem Scroller功能调整为： §a开启",
 	
 	"enableCraftingFeatures":"Crafting | 制作特性",
@@ -118,7 +118,7 @@
 	"modifierMoveStack":"modifierMove | 移动一份",
 	"Modifier key to move the entire stack to the other\ninventory when scrolling over it":"当在堆栈上滚动时，修饰键将整个堆栈移动到另一个库存\n（这个快捷键并没有实际功能，类似前缀）",
 
-    //20210922更新TAG
+
 	"packetRateLimit":"packetRateLimit | 最大数据流",
 	"The limit of sent emulated slot click packets per game tick,\nif 'rateLimitClickPackets' is enabled":"当§6[连点限制]§f开启后限制每个tick发送的最大模拟操作数据包的数量",
 	"rateLimitClickPackets":"rateLimitClick | 连点限制",
@@ -137,14 +137,14 @@
 	"modifierToggleVillagerGlobalFavorite":"VillagerGlobal | 交易收藏",
 	"Modifier key to hold while middle clicking a trade,\nto toggle the global favorite state for that trade.\nGlobal favorites are used for villagers that don't have any specific favorites set.":"按住该快捷键单击鼠标中键对交易进行收藏\n全局收藏将会作用于没有特殊交易的村民",
 	
-    //20220121更新TAG
+
 	"modMainToggle":"modMain | 主开关",
 	"Can disable all the functionality of the entire mod":"能否禁用整个mod的所有功能",
 	"toggleModOnOff":"ModOnOff | 主开关",
 	"Toggle all mod functionality ON/OFF":"打开/关闭所有mod功能",
 	"Modifier key to hold while middle clicking a trade,\nto toggle the global favorite state for that trade.\nGlobal favorites are used for villagers that don't\nhave any \"local\"/villager-specific favorites set.":"使用鼠标中键点击交易内容时按住快捷键\n切换该交易为全局最喜欢的状态（§d粉色星§f）\n全局的交易收藏夹只能用于没有任何\n“本地收藏夹（§e黄色星§f）”的村民",
 	
-	//20220731更新TAG
+
 	"massCraftInhibitMidUpdates":"massCraft | 批量合成刷新优化",
 	"Prevent recipe output slot updates in the middle of moving items\nto the crafting grid. This should reduce CPU usage\nbecause of not constantly querying the recipe after every grid change.":"禁止批量合成时配方输出槽在材料移动到合成GUI的过程中更新。\n这将会减少CPU的占用，因为游戏会在每次合成配方更改后\n不断地查询配方并显示产物。",
 	"massCraftInterval":"massCraft | 批量合成速度",

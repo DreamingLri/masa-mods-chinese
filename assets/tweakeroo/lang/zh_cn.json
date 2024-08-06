@@ -30,7 +30,6 @@
     "tweakeroo.label.placement_restriction_mode.plane": "平面",
 
     "tweakeroo.label.config_comment.single_player_only": "",
-    //§6注意: 在多人游戏中该功能可能不完全可用或完全不可用。§r   在原文后加\n自动添加下面内容
 
     "tweakeroo.label.snap_aim_mode.both": "旋转与翻转",
     "tweakeroo.label.snap_aim_mode.pitch": "翻转",
@@ -80,7 +79,6 @@
 
     
     
-	// "通用功能快捷键 "
 	"accurateBlockPlacementInto":"accurateInto | 精准放置模式",
 	"The key to activate the accurate block placement\nmode/overlay for placing the block facing\ninto the clicked block face":"激活精确放置的快捷键，使用后方块将放置于点击的块面上",
 	"accurateBlockPlacementReverse":"accurateReverse | 精准放置（反向）",
@@ -154,7 +152,6 @@
 	"zoomActivate":"zoomActivate | 激活望远镜",
 	"Zoom activation hotkey":"望远镜激活热键。",
 	
-	// "工具开关"
 	"carpetAccuratePlacementProtocol":"carpetAccurate | Carpet精确放置协议",
 	"If enabled, then the Flexible Block Placement and the\nAccurate Block Placement use the protocol implemented\nin the recent carpet mod versions":"启用后，灵活放置的精确放置功能将基于Carpet协议实现。\n使用Carpet协议能够让你在服务器上也可以精确放置。\n§6Carpet协议需要服务器安装有Carpet MOD§f",
 	"fastPlacementRememberOrientation":"fastPlacement | 快速放置记忆",
@@ -299,7 +296,6 @@
 	"Enables using the zoom hotkey to, well, zoom in":"启用后需要在§6[通用功能快捷键]-[激活望远镜]§f中设置快捷键来使用望远镜。",
 	
 
-	// "配置表单"
 	"fastPlacementItemListType":"fast | 快速放置限制方式",
 	"The item restriction type for the Fast Block Placement tweak":"用于限制§6快速放置方块§f的列表类型。",
 	"fastPlacementItemBlackList":"fast | 快速放置黑名单",
@@ -332,7 +328,6 @@
 	"The items that should be considered for the\n'tweakItemUnstackingProtection' tweak":"功能§6不可堆叠物品保护§f所保护的物品。",
 	
 
-	// "修复"
 	"clientChunkEntityDupeFix":"client | 客户端幽灵实体修复",
 	"Fixes the client world chunks essentially duping their\nentities when chunk packets are received":"修复了客户端区块加载时数据包过多出现幽灵实体的情况。",
 	"elytraFix":"elytraFix | 鞘翅修复",
@@ -345,7 +340,6 @@
 	"Optimizes the removal of unloading TileEntities from the World lists.\nThis can greatly improve performance if there are lots of\nTileEntities loaded and/or unloading at once.":"优化了从世界中删除并卸载方块实体的功能。\n如果有大量的方块实体同时加载和/或卸载，这可以大大改善性能。",
 	
 
-	// "通用功能"
 	"afterClickerClickCount":"afterClicker | 放置后点击次数",
 	"The number of right clicks to do per placed block when\ntweakAfterClicker is enabled":"当放置方块后，右键点击的次数。",
 	"blockReachDistance":"blockReach | 方块放置距离",
@@ -448,7 +442,6 @@
 	"The FOV value used for the zoom feature":"设置使用望远镜时的视野角度。",
 	
 
-	// "禁用类"
 	"disableBlockBreakingParticles":"Block | 禁用方块破碎粒子",
 	"Removes the block breaking particles.\n(This is originally from usefulmod by nessie.)":"移除当方块破碎时产生的粒子效果。（由nessie制作）",
 	"disableDoubleTapSprint":"DoubleTapSprint | 禁用双击疾跑",
@@ -501,7 +494,6 @@
 	"Touching a wall doesn't drop you out from sprint mode":"开启后在疾跑时撞上墙壁也不会停止疾跑状态。。",
 	
 	
-	// "主菜单"
 	"Advanced Keybind settings":"高级按键绑定设置",
 	"Activate On:":"激活",
 	"Allow empty keybind:":"允许绑定为空",
@@ -517,8 +509,6 @@
     
 
 
-	// "20200812更新":"这只是一个更新TAG",
-	// 通用设置更新
 	"freeCameraPlayerMovement":"freeCamPlayer | 灵魂/身体操作切换",
 	"When enabled, the movement inputs in the Free Camera mode\nwill move the actual client player instead of the camera":"当启用时，在灵魂出窍模式下的移动输入将移动实际的客户端的视角而不是相机\n也就是说，当你开启这个功能时，你操纵的是角色本体",
 	"Toggle the Generic -> freeCameraPlayerMovement option":"切换通用功能中的\"freeCamPlayer | 灵魂/身体操作切换\"选项",
@@ -532,10 +522,10 @@
 	"The number of game ticks to hold down use":"这个数字是玩家持续按住右键的时间。（单位：游戏刻）",
 	"periodicHoldUseInterval":"periodicHoldAttack | 右键按住间隔",
 	"The number of game ticks between starting to hold down use (right click)":"这个数字是间隔多久按住一次。（单位：游戏刻）",
-	// 列表更新
+
 	"creativeExtraItems":"creativeExtra | 额外物品清单",
 	"Extra items that should be appended to the creative inventory.\nCurrently these will appear in the Transportation category.\nIn the future the group per added item will be customizable.":"在创造模式物品菜单中的[交通运输]中添加额外物品。",
-	// 功能开启设置更新
+
 	"tweakCreativeExtraItems":"CreativeExtra | 创造额外物品",
 	"Adds custom items to item groups.\nSee Lists -> 'creativeExtraItems' to control which items are added to the groups.\nNote: Currently these will be added to the Transportation group\n(because it has the elast items), but in the future\nthe groups will be configurable per added item":"开启后会在创造模式物品菜单中的[交通运输]中添加额外物品。\n默认为命令方块与结构方块一类。\n你也可以在§6[配置表单]-[额外物品清单]§f中自行额外添加。",
 	"tweakFakeSneakPlacement":"FakeSneakPlacement | 屏蔽方块交互",
@@ -546,26 +536,25 @@
 	"Enables periodically holding use for a configurable amount of time.\nConfigure the interval in Generic -> periodicHoldUseInterval\nand the duration in periodicHoldUseDuration\\n§6Note: You should not use the normal hold use§r\n§6or the periodic use at the same time§r":"循环周期与单次按住时间可以在§6[通用功能]§f中调整。\n§6注意：请不要将此功能与长按右键一同使用。§f",
 	"tweakRenderEdgeChunks":"RenderEdgeChunks | 渲染边界区块",
 	"Allows the edge-most client-loaded chunks to render.\nVanilla doesn't allow rendering chunks that don't have\nall the adjacent chunks loaded, meaning that the edge-most chunk\nof the client's loaded won't render in vanilla.\nThis is also very helpful in the Free Camera mode!":"允许渲染加载强度为“边界”的区块，这在灵魂出窍状态下比较有用。\n原版中不允许渲染加载强度为“边界”的区块，导致客户端加载的大部分边缘区块不能正常显示。",
-	// 通用设置快捷键更新
+
 	"toggleGrabCursor":"toggleGrabCursor | 切换鼠标",
 	"Grabs or ungrabs the mouse cursor, depending on the current state":"将鼠标从当前窗口切换到外部窗口，在外部窗口的鼠标操作不影响游戏内操作。",
 	
-	// "20200920更新":"这只是一个更新TAG",
-	// 通用设置更新
+
 	"freeCameraPlayerInputs":"freeCam | 灵魂出窍玩家操作",
 	"When enabled, the attacks and use actions\n(ie. left and right clicks) in Free Camera mode are\nlet through to the actual player.":"启用后，你才能在灵魂出窍状态下控制自己。",
 	"slotSyncWorkaroundAlways":"slotSync | 一直同步物品槽",
 	"Enables the slot sync workaround at all times when the use key\nis held, not only when using fast right click or fast block placement.\nThis is mainly for other mods that may quickly use items when\nholding down use, such as Litematica's Easy Place mode.":"启用这种工作方式后，会在按住右键时持续同步，\n例如使用§6方块快速放置§f或§6右键快速点击§f时。\n这在你使用当按住右键时会快速使用物品的其他MOD时会很有用，\n比如§elitematica§f的§6轻松放置功能§f。",
-	// 功能开启设置更新
+
 	"tweakSneak_1.15.2":"Sneak1.15.2 | 潜行恢复",
 	"Restores the 1.15.2 sneaking behavior":"恢复了1.15.2的潜行行为",
-	// 通用设置快捷键更新
+
 	"freeCameraPlayerInputs":"freeCam | 灵魂出窍玩家操作",
 	"Toggle the Generic -> freeCameraPlayerInputs option":"用于切换[通用设置]-[灵魂出窍玩家操作]功能的开启与关闭。",
 	"swapElytraChestplate":"swapElytra | 鞘翅胸甲",
 	"Swaps the currently equipped item in the chest slot between an Elytra and a Chest Plate":"按下快捷键时，更换胸部装备为鞘翅/胸甲。",
 	
-	// "20210227更新":"这只是一个更新TAG1.16.4",
+
 	"handRestockPreThreshold":"handRestock | 自动补货阈值",
 	"The stack size threshold at which Hand Restock will happen\nin the pre-restock mode":"在自动补货模式下的补货阈值",
 	"disableAxeStripping":"AxeStripping | 禁用斧头去皮",
@@ -576,7 +565,6 @@
 	"Disables the view bob wobble effect of the world, but not the hand":"禁用移动时的视角摇晃效果，不是禁用手部摇晃。",
 	
 	
-	// "20210227更新":"这只是一个更新TAG-1.17",
 	"disableArmorStandRendering":"ArmorStand | 禁用盔甲架渲染",
 	"Disabled all Armor Stand entity rendering":"禁用了所有盔甲架实体的渲染",
 	"tweakHangableEntityBypass":"HangableEntity | 忽略悬挂实体",
@@ -589,8 +577,7 @@
 	"The pulse length for Sculk Sensors, if the 'tweakSculkPulseLength' tweak is enabled.":"启用§6调整潜声植物脉冲§f时，该数值为潜声植物发出的脉冲长度。（单位：游戏刻）",
 
 
-	// "20210612更新_1.17正式版"
-	// "禁用"
+
 	"disableChunkRendering":"Chunk | 禁用区块渲染",
 	"Disables chunk (re-)rendering. This will make any block changes non-visible\nuntil this is disable again and F3 + A is used to refresh the world rendering.\nThis might help with low fps in places with lot of block change.":"禁用区块渲染，这会导致所有方块不可见。\n恢复渲染需要在禁用此功能后使用 F3 + A 重新渲染世界。\n这可能会让你在大量方块改变时拥有不那么低的帧数。",
 	"disableClientLightUpdates":"Client | 禁用客户端光照更新",
@@ -598,7 +585,6 @@
 	"disableRenderingScaffolding":"Renderingscaffold | 禁用脚手架渲染",
 	"Disables rendering of Scaffolding Blocks":"禁用脚手架的渲染。",
 	
-	// "20210922更新_1.16.5"
 	"toolSwitchableSlots":"toolSwitch工具选择范围",
 	"The slots that the Tool Switch tweak is allowed to put tools to.\nNote that Tool Switch can also switch to other slots in the hotbar,\nif they already have the preferred tool, but it will only\nswap new tools to these slots":"工具选择的物品栏调整为允许选择的物品栏位。\n请注意，工具选择也可以切换到快捷栏中的其他物品栏位，\n如果已经拥有首选工具，只会将新工具切换到这些物品栏位",
 	"macHorizontalScroll":"macScroll | MAC修复",
@@ -611,8 +597,6 @@
 	"Enables periodically holding attack for a configurable amount of time.\nConfigure the interval in Generic -> periodicHoldAttackInterval\nand the duration in periodicHoldAttackDuration\n§6Note: You should not use the normal hold attack\n§6or the periodic attack at the same time":"在一定的时间内保持左键状态。 \n在[通用设置]->[左键按住间隔] 中配置时间间隔，\n在[左键按住时间]中配置持续时间\n§6注意：你不应该同时使用长按左键或左键连点",
 	"Enables periodically holding use for a configurable amount of time.\nConfigure the interval in Generic -> periodicHoldUseInterval\nand the duration in periodicHoldUseDuration\\n§6Note: You should not use the normal hold use\n§6or the periodic use at the same time":"在一定的时间内保持右键状态。 \n在[通用设置]->[右键按住间隔] 中配置时间间隔，\n在[右键按住时间]中配置持续时间\n§6注意：你不应该同时使用长按右键或右键连点",
 	
-	// "20211204更新_1.17.1正式版"
-	//通用功能
 	"snapAimOnlyCloseToAngle":"snapAim | 预设角度内锁定视角",
 	"If enabled, then the snap aim only snaps to the angle\nwhen the internal angle is within a certain distance of it.\nThe threshold can be set in snapAimThreshold":"启用该功能后那么视角锁定功能\n将仅在一定阈值内的角度时锁定该角度。\n角度阈值可以在snapAimThreshold中设置",
 	"snapAimThresholdPitch":"snapAim | 角度阈值（垂直方向）",
@@ -620,7 +604,6 @@
 	"snapAimThresholdYaw":"snapAim | 角度阈值（水平方向）",
 	"The angle threshold inside which the player rotation will\nbe snapped to the snap angle.":"当玩家的视角在这个角度阈值内时，\n玩家的视角旋转将被捕获到固定角度。",
 	
-	//配置表单
 	"blockBreakRestrictionListType":"blockBreak | 方块破坏规则限制方式",
 	"The restriction list type for the Block Type Break Restriction tweak":"使用方块破坏规则时的限制方式",
 	"blockBreakRestrictionBlackList":"blockBreak | 方块破坏规则黑名单",
@@ -634,25 +617,20 @@
 	"handRestockWhiteList":"handRestock | 自动补货白名单",
 	"The only allowed items that can be restocked with the Hand Restock tweak,\nif the handRestockListType is set to White List":"如果“自动补货限制方式”设置为白名单，\n那么自动补货时将只能补充此类物品",
 	
-	//工具开关
 	"tweakBlockTypeBreakRestriction":"BlockTypeBreak | 方块破坏规则",
 	"Restricts which blocks you are able to break (manually).\nSee the corresponding 'blockBreakRestriction*' configs in the Lists category.":"使用您定制的方块破坏规则。\n在配置表单中的'blockBreakRestriction'更改您的配置。",
 	"If enabled, then the level of Respiration and Aqua Affinity enchantments,\nand having the Fire Resistance effect active,\nwill greatly increase the visibility under lava.":"如果启用该功能，\n那么水下呼吸附魔的等级，\n以及防火效果的激活，\n将大大增加岩浆下的视野。",
 	
-	//通用功能快捷键
 	"sitDownNearbyPets":"sitDown | 坐下！",
 	"Makes all nearby pets sit down":"让附近所有的宠物坐下",
 	"standUpNearbyPets":"standUp | 起来！",
-	"Makes all nearby pets stand up":"让附近所有的宠物站起",//全体起立！我向周围的猫猫狗狗宣布！\n从今天起这个地方叫lbw广场！\nby-yuki
+	"Makes all nearby pets stand up":"让附近所有的宠物站起",
 	
-	//禁用类功能
 	"disableScoreboardRendering":"Scoreboard | 禁用计分板显示",
 	"Removes the sidebar scoreboard rendering":"禁用侧面的计分板显示",
 	"disableShulkerBoxTooltip":"SBoxTooltip | 禁用潜影盒原版显示",
 	"Disables the vanilla text tooltip for Shulker Box contents":"关闭潜影盒内容的原版文字显示",
 	
-	// "20220130更新_1.18.1正式版"
-	//通用功能
 	"If enabled, then the Flexible Block Placement and the\nAccurate Block Placement use the protocol implemented in Carpet mod.\n§6Note: This is required for any block rotations to work, other than\n§6blocks that only care about the block side you click on (Hoppers, Logs etc.)":"如果启用，那么灵活放置和精确放置将会使用地毯mod实现。\n§6注意:任何方块旋转都需要这样做，\n§6除了方向只依赖于你在侧面点击的方块（漏斗、原木等）",
 	"fastLeftClickAllowTools":"LeftClickTools | 左键连点工具兼容",
 	"Allow the Fast Left Click to work in survival\nalso while holding tool items":"在生存当中开启左键快速点击将兼容工具\n§b金合欢：你们挖区块都不开连点的吗？",
@@ -667,10 +645,9 @@
 	"toolSwitchIgnoredSlots":"toolSwitch | 工具选择忽略槽位",
 	"The slots where the Tool Switch tweak does not work when they are active.":"写入自动工具选择的忽略槽位\n当使用这几个槽位点击想要破坏的方块时\n自动工具选择将不会起作用\n书写样例：1-4",
 	
-	//修复
 	"Elytra landing fix by Earthcomputer and Nessie.\nThe deployment fix is now in vanilla, so this only affects landing now.":"鞘翅着陆被Earthcomputer和Nessie修复\n原版现在修复了起飞，所以该功能只影响了降落",
 	
-	//配置表单
+
 	"blockTypeBreakRestrictionListType":"blockBreak | 方块破坏规则限制方式",
 	"blockTypeBreakRestrictionBlackList":"blockBreak | 方块破坏规则黑名单",
 	"blockTypeBreakRestrictionWhiteList":"blockBreak | 方块破坏规则白名单",
@@ -683,11 +660,11 @@
 	"entityWeaponMapping":"entityWeapon | 武器切换规则",
 	"Mapping for what weapon should be used with the\n'tweakWeaponSwitch' tweak.\n'<default>' will be used when no other mapping is defined.\n'<ignore>' will not trigger a weapon switch.":"通过打开“武器自动选择”选项来选择应该使用的武器。\n- <default>:将在没有定义其他实体时使用\n- <ignore>:不会触发武器切换",
 	
-	//通用功能快捷键
+
 	"toggleCarpetAccuratePlacementProtocol":"toggleCarpet | 切换地毯精确放置协议",
 	"Toggles the value of the Generic -> 'carpetAccuratePlacementProtocol' option":"开关通用中的地毯精确放置协议",
 	
-	//禁用
+
 	"§6disableBatSpawning§r":"§6BatSpawning | 禁用蝙蝠生成§r",
 	"Disables Bat spawning in single player\n":"禁止在单人游戏中生成蝙蝠\n§6注意: 在多人游戏中该功能可能不完全可用或完全不可用。§r",
 	"disableBeaconBeamRendering":"BeaconBeam | 关闭信标光柱渲染",
@@ -707,7 +684,7 @@
 	"Prevent all TileEntities from getting ticked\n":"阻止所有的方块实体被加入运算。\n§6注意: 在多人游戏中该功能可能不完全可用或完全不可用。§r",
 	"Prevents villager trades from ever locking, by always incrementing\nthe max uses as well when the recipe uses is incremented\n":"通过在交易时增加最大次数限制来防止村民锁定交易。\n§6注意: 在多人游戏中该功能可能不完全可用或完全不可用。§r",
 	
-	//工具
+
 	"tweakCustomFlyDeceleration":"CustomFly | 飞行减速",
 	"Allows changing the fly deceleration in creative or spectator mode.\nThis is mainly meant for faster deceleration ie. less \"glide\"\nwhen releasing the movement keys.\nSee Generic -> flyDecelerationRampValue":"允许在创造模式或旁观者模式下改变飞行减速程度，\n这主要是指更快的减速。当释放移动键时，滑翔的距离将更少。\n减速系数：通用 ->飞行阻力因素",
 	"tweakEntityTypeAttackRestriction":"EntityAttack | 实体攻击限制",
@@ -721,7 +698,7 @@
 	"tweakWeaponSwitch":"WeaponSwitch | 武器自动选择",
 	"Enables automatically switching to a weapon for the targeted entity":"根据目标实体的不同自动切换武器",
 	
-	// "20220731更新_1.19.1正式版"
+
 	"itemUsePacketCheckBypass":"itemUse | 物品使用校验",
 	"Bypass the new distance/coordinate check that was added in 1.18.2.\n\nThat check breaks the \"accurate placement protocol\" and causes\nany blocks placed with a rotation (or other property) request to just become ghost blocks.\n\nThere is basically no need to ever disable this.\nThe check didn't even exist ever before 1.18.2.":"该功能绕过了1.18.2中新添加的距离/坐标校验。\n该校验破坏了“精确放置协议”的功能\n并导致任何带有旋转(或其他属性)\n请求放置的方块变成了幽灵方块\n基本上没有必要禁用这个校验。\n因为在1.18.2之前，这个校验甚至都不存在",
 	"disableBossBar":"BossBar | 禁用boss血条",
@@ -730,13 +707,15 @@
 	"Disables the status effect HUD rendering (which is usually\nin the top right corner of the screen)":"禁用状态效果的HUD渲染(通常在屏幕的右上角)",
 	
 	
-	// "20230617更新_1.20.1正式版"
+
 	"customInventoryGuiScale":"InventoryGui | 自定义容器比例",
 	"The GUI scale value to use for inventory screens, if\n§etweakCustomInventoryScreenScale§r is enabled.":"如果启用了§e“自定义容器比例”§r，则可以调整容器GUI比例。",
 	"tweakCustomInventoryScreenScale":"InventoryGui | 自定义容器比例",
 	"Allows using a custom GUI scale for any inventory screen.\nSee Generic -> §ecustomInventoryGuiScale§r for the scale value":"允许使用自定义容器比例。调整参数菜单：通用功能 -> §e“自定义容器比例”§r",
 	"disableSkyDarkness":"SkyDarkness | 禁用天空黑暗",
 	"Disables the sky darkness below y = 63\n\n(By moving the threshold y to 2 blocks below the bottom of the world instead)":"禁用y = 63以下的天空黑暗\n§e可以理解为灵魂出窍增强§r\n(通过将触发阈值y移动到世界底部以下2格)",
+
+
 	
 	"tweakeroo.gui.title.configs": "Tweakeroo 设置界面 | 汉化：醉梦巅峰&新兵Sinbing - 20230619"
 }
