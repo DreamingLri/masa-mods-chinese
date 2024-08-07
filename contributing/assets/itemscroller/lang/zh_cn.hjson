@@ -143,7 +143,8 @@
     "itemscroller.gui.label.trades": "交易",
     "itemscroller.gui.label.trade_uses": "交易使用: %d / %",
     
-    "itemscroller.gui.title.configs": "Item Scroller 设置 - %s",
     "itemscroller.message.toggled_mod_off": "Item Scroller 功能调整为：§c关闭",
-    "itemscroller.message.toggled_mod_on": "Item Scroller 功能调整为：§a开启"
+    "itemscroller.message.toggled_mod_on": "Item Scroller 功能调整为：§a开启",
+
+    "itemscroller.gui.title.configs": "Item Scroller 设置界面 - %s",
 }
