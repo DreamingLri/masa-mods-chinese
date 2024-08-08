@@ -52,9 +52,13 @@ def zip_files():
         'pack.mcmeta',
         'pack.png',
     ]
-    zip_filename = './masa-mods-chinese.zip'
+    zip_filename = './[1.21]MASA全家桶汉化包.zip'
     zip_files_and_folders(zip_filename, items_to_zip)
+
+def delete_files():
+    shutil.rmtree('./assets')
 
 hjson_to_json()
 zip_files()
+delete_files()
 print('Done!')
