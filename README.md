@@ -15,17 +15,14 @@
 
 ---
 
-<details>
-    <summary>如果您想体验**最新**~~最不稳定~~的汉化更新：</summary>
-    - 将本项目clone到本地
-    - `pip install hjson`
-    - 运行`generate.py`文件即可获得资源包
-</details>
+如果您想体验**最新**~~最不稳定~~的汉化更新：
+- 将本项目clone到本地
+- `pip install hjson`
+- 运行`generate.py`文件即可获得资源包
+
+## 结语
 
 > [!NOTE]
 > 由于sakura 版本的masa mods部分存在config引用错误，有些汉化无法显示(其实英文也没法显示)，出现问题的地方已经使用注释标记在hjson中，需等待sakura修复
-
-
-## 结语
 
 如果您发现任何汉化错误，欢迎提交[issue](https://github.com/DreamingLri/masa-mods-chinese/issues/new)
