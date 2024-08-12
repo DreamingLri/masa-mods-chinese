@@ -83,7 +83,6 @@
     
     "malilib.gui.title.all_hotkeys": "所有已注册的热键",
     "malilib.gui.title.color_editor": "编辑颜色",
-    "malilib.gui.title.configs": "malilib 设置 - %s",
     "malilib.gui.title.create_directory": "新建目录",
     "malilib.gui.title.debug": "调试",
     "malilib.gui.title.generic": "通用",
@@ -133,4 +132,6 @@
     "malilib.message.set_layer_axis_to": "设置层轴（axis）为 %s",
     "malilib.message.set_layer_mode_to": "设置层模式为 %s",
     "malilib.message.set_layer_to": "设置层至 %s"
+
+    "malilib.gui.title.configs": "malilib 设置界面 - %s",
 }

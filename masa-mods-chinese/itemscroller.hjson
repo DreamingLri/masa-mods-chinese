@@ -99,7 +99,7 @@
     "itemscroller.config.hotkeys.name.modifierMoveEverything": "MoveEverything | 滚动所有",
     "itemscroller.config.hotkeys.name.modifierMoveMatching": "MoveMatching | 滚动相同",
     "itemscroller.config.hotkeys.name.modifierMoveStack": "MoveStack | 滚动一份",
-    "itemscroller.config.hotkeys.name.modifierToggleVillagerGlobalFavorite": "ToggleVillagerGlobalFavorite | 全局交易收藏",
+    "itemscroller.config.hotkeys.name.modifierToggleVillagerGlobalFavorite": "VillagerGlobalFavorite | 全局交易收藏",
     "itemscroller.config.hotkeys.name.sortInventory": "sortInventory | 物品栏整理",
    
     "itemscroller.config.hotkeys.comment.openConfigGui": "打开游戏内配置界面。",
@@ -146,5 +146,5 @@
     "itemscroller.message.toggled_mod_off": "Item Scroller 功能调整为：§c关闭",
     "itemscroller.message.toggled_mod_on": "Item Scroller 功能调整为：§a开启",
 
-    "itemscroller.gui.title.configs": "Item Scroller 设置界面 -%s",
+    "itemscroller.gui.title.configs": "Item Scroller 设置界面 - %s",
 }
