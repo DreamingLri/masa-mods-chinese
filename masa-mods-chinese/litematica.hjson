@@ -4,7 +4,11 @@
     "litematica.config.generic.name.pasteReplaceBehavior": "pasteReplace | 粘贴替换模式",
     "litematica.config.generic.name.placementReplaceBehavior": "ReplaceBehavior | 粘贴替换模式优化",
     "litematica.config.generic.name.placementRestrictionWarn": "RestrictionWarn | 放置限制警告",
+
+    // "litematica.config.generic.name.selectionCornersMode": "selectionCornersMode",
     "litematica.config.generic.name.cornerSelectionMode": "selection | 选择选区模式",
+    // sakura 在这个位置写错了名字
+    
     "litematica.config.generic.name.customSchematicBaseDirectoryEnabled": "Schematic | 自定义原理图目录",
     "litematica.config.generic.name.customSchematicBaseDirectory": "BaseDirectory | 自定目录路径",
     "litematica.config.generic.name.areaSelectionsPerWorld": "areaSelections | 世界区域选择",
@@ -74,6 +78,7 @@
     "litematica.config.generic.name.signTextPaste": "signText | 告示牌文本",
     "litematica.config.generic.name.toolItem": "toolItem | 工具",
     "litematica.config.generic.name.toolItemEnabled": "toolItemEnabled | 启用工具项目",
+    "litematica.config.generic.name.toolItemComponents":"toolItemComponents | 工具项目组件",
     "litematica.config.generic.name.unhideSchematicVCS": "VCS | 不隐藏原理图版本控制系统",
     "litematica.config.generic.name.materialListIgnoreState":"materialList | 材料列表忽略状态",
     "litematica.config.visuals.name.schematicOverlayModelOutline":"schematicOverlayModelOutline | 原理图模型轮廓",
@@ -116,10 +121,10 @@
     "litematica.config.visuals.name.schematicOverlayTypeWrongBlock": "schematicOverlay | 原理图透视错误",
     "litematica.config.visuals.name.schematicOverlayTypeWrongState": "schematicOverlay | 原理图透视错位",
     "litematica.config.visuals.name.schematicVerifierUseBlockModels": "schematicVerifier | 原理图验证图片",
+
     "litematica.config.info_overlays.name.blockInfoLinesAlignment": "blockInfo | 方块提示位置",
     "litematica.config.info_overlays.name.blockInfoOverlayAlignment": "blockInfo | 方块信息位置",
     "litematica.config.info_overlays.name.infoHudAlignment": "infoHud | 材料HUD位置",
-    
     "litematica.config.info_overlays.name.toolHudAlignment": "toolHudAlignment | 工具HUD位置",
     "litematica.config.info_overlays.name.blockInfoLinesEnabled": "blockInfo | 方块信息启用",
     "litematica.config.info_overlays.name.blockInfoLinesFontScale": "blockInfo | 方块信息大小",
@@ -143,6 +148,7 @@
     "litematica.config.info_overlays.name.verifierErrorHilightMaxPositions": "verifierError | 验证错误方块上限",
     "litematica.config.info_overlays.name.verifierOverlayEnabled": "verifier | 原理图验证渲染",
     "litematica.config.info_overlays.name.warnDisabledRendering": "warnDisabled | 关闭告警信息",
+
     "litematica.config.colors.name.areaSelectionBoxSideColor": "areaSelection | 选区边框颜色",
     "litematica.config.colors.name.hightlightBlockInInventoryColor": "hightlightBlock | 高亮显示颜色",
     "litematica.config.colors.name.materialListHudItemCountsColor": "materialListHud | 材料数量颜色",
@@ -153,6 +159,7 @@
     "litematica.config.colors.name.schematicOverlayColorMissing": "schematicOverlay | 缺失方块颜色",
     "litematica.config.colors.name.schematicOverlayColorWrongBlock": "schematicOverlay | 错误方块颜色",
     "litematica.config.colors.name.schematicOverlayColorWrongState": "schematicOverlay | 错误方向颜色",
+
     "litematica.config.hotkeys.name.addSelectionBox": "addSelectionBox | 添加选区",
     "litematica.config.hotkeys.name.cloneSelection": "cloneSelection | 克隆选区",
     "litematica.config.hotkeys.name.deleteSelectionBox": "deleteSelectionBox | 删除选区",
@@ -256,6 +263,7 @@
     "litematica.config.generic.comment.pasteReplaceBehavior": "在粘贴原理图工具模式中替换现有块的方式",
     "litematica.config.generic.comment.placementReplaceBehavior": "当原理图粘贴时，方块的替换方式\n这将会允许直接改变重叠的位置，\n而不需要后面处理的位置总是先用空气覆盖前面的位置。\n另一方面，一些像光照方块这样的方块被认为是空气，\n所以它们需要“All”替换行为来放置。",
     "litematica.config.generic.comment.placementRestrictionWarn": "当简单放置模式或放置限制阻止玩家放置一个方块时，\n选择要显示的警告信息类型\n-物品栏模式：显示在物品栏上方\n-消息模式：橙色的弹出消息样式",
+    "litematica.config.generic.comment.toolItemComponents":"一个数据组件感知版本的[工具项目].\n设置 \"empty\" 以禁用.\n接收与 \"/give\" 命令相同的语法",
     "litematica.config.generic.comment.cornerSelectionMode": "要使用的区域选择模式（角点，或展开）",
     "litematica.config.generic.comment.customSchematicBaseDirectoryEnabled": "如果启用该功能，则在「customSchematicBaseDirectory」\n中设置的目录路径将用为原理图的根目录，\n而不是正常的§1 .minecraft/schematics/ §r目录",
     "litematica.config.generic.comment.customSchematicBaseDirectory": "如果启用了自定义原理图目录\n所要使用的原理图的根目录",
@@ -350,6 +358,7 @@
     "litematica.config.visuals.comment.schematicOverlayTypeWrongBlock": "当开启了原理图透视后，关闭该选项将不再显示错误的方块",
     "litematica.config.visuals.comment.schematicOverlayTypeWrongState": "当开启了原理图透视后，关闭该选项将不再显示错位的方块",
     "litematica.config.visuals.comment.schematicVerifierUseBlockModels": "当你使用原理图验证的时候，如果你开启了该选项，\n那么原理图验证界面当中，只会存在文字，而并非方块贴图",
+    
     "litematica.config.info_overlays.comment.blockInfoLinesAlignment": "方块信息弹窗的显示位置",
     "litematica.config.info_overlays.comment.blockInfoOverlayAlignment": "方块信息在屏幕位置调整的选项",
     "litematica.config.info_overlays.comment.infoHudAlignment": "材料信息位置的调整\n（其实和材料有关的 HUD 显示都是这玩意）",
@@ -376,6 +385,7 @@
     "litematica.config.info_overlays.comment.verifierErrorHilightMaxPositions": "在打开原理图验证程序对当前放置进行验证后，\n点击验证当中出现问题的方块，\n错误的方块在透视状态下的最大数量显示",
     "litematica.config.info_overlays.comment.verifierOverlayEnabled": "启用原理图验证渲染",
     "litematica.config.info_overlays.comment.warnDisabledRendering": "当加载一个新的示意图或创建一个新的位置时，\n是否应该显示关于该层的一些警告消息",
+   
     "litematica.config.colors.comment.areaSelectionBoxSideColor": "选区未被选中时边框的颜色",
     "litematica.config.colors.comment.hightlightBlockInInventoryColor": "在物品栏中高亮显示目标方块的颜色",
     "litematica.config.colors.comment.materialListHudItemCountsColor": "材料列表开启 HUD 后的游戏内材料数量的颜色",
@@ -386,6 +396,7 @@
     "litematica.config.colors.comment.schematicOverlayColorMissing": "缺失方块在投影内显示的颜色",
     "litematica.config.colors.comment.schematicOverlayColorWrongBlock": "错误方块在投影内显示的颜色",
     "litematica.config.colors.comment.schematicOverlayColorWrongState": "方块方向错误在投影内显示的颜色",
+   
     "litematica.config.hotkeys.comment.addSelectionBox": "在当前位置添加一个新的选区(位置 1)",
     "litematica.config.hotkeys.comment.cloneSelection": "快速克隆当前选定的区域，基本上是创建了一个储存中的示意图\n然后在当前位置创建一个示意图并选择它，并将工具模式切换为粘贴。",
     "litematica.config.hotkeys.comment.deleteSelectionBox": "删除当前选区",
@@ -538,6 +549,7 @@
     "litematica.error.structure_write_to_file_failed.exists": "未能将结构写入文件 '%s', 文件已存在",
     
     "litematica.hotkeys.category.generic_hotkeys": "通用热键",
+    
     "litematica.info.schematic_load.schematic_loaded": "原理图 '%s' 成功加载到内存中",
     "litematica.info.schematic_manager.preview.right_click_to_cancel": "右键单击该按钮可取消挂起的预览操作",
     "litematica.info.schematic_manager.preview.set_preview_by_taking_a_screenshot": "使用普通屏幕截图键设置预览\n或者右键单击“设置预览”按钮取消设置预览",
@@ -659,6 +671,7 @@
     "litematica.gui.button.tool_mode": "工具模式: %s",
     "litematica.gui.button.unload": "卸载",
     "litematica.gui.button.unlocked": "解锁",
+    
     "litematica.gui.label.area_editor.box_name": "子区域框名称",
     "litematica.gui.label.area_editor.selection_name": "选择名称",
     "litematica.gui.label.area_editor.corner_1": "角1",
@@ -769,9 +782,11 @@
     "litematica.gui.label.task_name.paste": "粘贴原理图",
     "litematica.gui.label.task_name.save_schematic": "保存原理图",
     "litematica.gui.label.task_name.verifier": "验证程序",
+    
     "litematica.gui.message.confirm_file_deletion": "是否要删除文件 '%s'",
     "litematica.gui.message.schematic_projects.confirm_delete_area": "是否删除“上次受影响”的区域？\n这将删除这个工程管理器上次放置在世界上的，或者上次保存为一个版本文件的区域中任何方块实体\n（基本上是“最后一次看到受影响的区域”，这样如果你要循环版本，它就不会留下以前版本的方块）",
     "litematica.gui.message.schematic_projects.confirm_place_to_world": "你想把这个版本放到世界吗?\n这将删除项目管理器最后放置到世界的区域内的任何方块和实体,或最后保存为版本. (基本上 \\\"最后见过受影响的区域\\\", 这样,如果你要循环版本,它不会留下以前版本的方块.)",
+    
     "litematica.gui.title.area_editor_normal": "区域编辑器（普通/多框模式）",
     "litematica.gui.title.area_editor_normal_schematic_projects": "区域编辑器 (§6§l图形项目区域§r)",
     "litematica.gui.title.area_editor_simple": "区域编辑器 (简单模式)",
@@ -823,10 +838,12 @@
     "litematica.hud.area_selection.selected_area_simple": "区域 [§6简单模式§r]: %s",
     "litematica.hud.area_selection.selected_sub_region": "子区域: %s",
     "litematica.hud.area_selection.selection_corners_mode": "角点模式: %s",
+    
     "litematica.hud.delete.target_mode": "删除目标模式: %s",
     "litematica.hud.delete.target_mode.area": "当前区域",
     "litematica.hud.delete.target_mode.placement": "当前放置",
     "litematica.hud.misc.easy_place_mode_enabled": "简单放置模式 §aON§r",
+    
     "litematica.hud.misc.none_brackets": "<none>",
     "litematica.hud.misc.placement_restriction_mode_enabled": "限制放置模式 §a开启§r",
     "litematica.hud.misc.render_layer_mode": "图层模式: %s - %s",
@@ -834,6 +851,7 @@
     "litematica.hud.misc.renderer_status": "渲染器: A: %s S: %s B: %s O: %s SEL: %s",
     "litematica.hud.misc.schematic_paste.data_restore_mode": "数据粘贴模式: §b%s",
     "litematica.hud.misc.schematic_paste.replace_mode": "替换模式: %s",
+    
     "litematica.hud.schematic_placement.hover_info.lock_coordinate": "锁定此坐标\n这允许改变其他坐标\n不影响锁定的",
     "litematica.hud.schematic_placement.hover_info.placement_locked": "此位置已锁定，如果不先解锁，则无法修改",
     "litematica.hud.schematic_placement.hover_info.placement_modified": "此位置已修改",
