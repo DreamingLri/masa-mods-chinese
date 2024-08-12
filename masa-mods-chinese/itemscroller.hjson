@@ -146,5 +146,5 @@
     "itemscroller.message.toggled_mod_off": "Item Scroller 功能调整为：§c关闭",
     "itemscroller.message.toggled_mod_on": "Item Scroller 功能调整为：§a开启",
 
-    "itemscroller.gui.title.configs": "Item Scroller 设置界面 - %s",
+    "itemscroller.gui.title.configs": "Item Scroller 设置界面 -%s",
 }

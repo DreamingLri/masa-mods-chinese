@@ -856,5 +856,5 @@
     "minihud.message.spawn_chunk_radius_is": "当前出生点区块范围为 '%s'",
     "minihud.message.spawn_chunk_radius_set": "MiniHUD: 出生点区块范围已设置为 %s"
 
-    "minihud.gui.title.configs": "MiniHUD 配置 - %s",
+    "minihud.gui.title.configs": "MiniHUD 设置界面 - %s",
 }

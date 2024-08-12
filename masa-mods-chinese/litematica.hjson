@@ -963,5 +963,5 @@
     "litematica.tool_mode.name.replace_block": "替换方块",
     "litematica.tool_mode.name.schematic_placement": "原理图放置"
 
-    "litematica.gui.title.configs": "投影设置界面 - %s",
+    "litematica.gui.title.configs": "Litematica 设置界面 - %s",
 }
