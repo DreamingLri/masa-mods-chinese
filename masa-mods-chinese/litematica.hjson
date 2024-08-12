@@ -316,7 +316,7 @@
     "litematica.config.generic.comment.pickBlockAvoidTools": "在开启简单放置后，避免方块替换掉任何在快捷栏中的工具。",
     "litematica.config.generic.comment.pickBlockEnabled": "启用结构图世界的拾取方块快捷键。\n还有一个快捷键可以切换此选项，从而切换这些快捷键... o.o",
     "litematica.config.generic.comment.pickBlockShulkers": "如果启用，那么如果选取方块物品没有在玩家背包找到\n那么就切换出包含他的潜影盒",
-    "litematica.config.generic.comment.pickBlockableSlots": "允许用于投影原理图挑选的快捷栏\n（12345 大概是整个背包加上副手）",
+    "litematica.config.generic.comment.pickBlockableSlots": "允许用于投影原理图挑选的快捷栏\n（12345 指的是物品栏1-5的位置，也就是说你物品栏1-5位置全是工具，投影会报错）",
     "litematica.config.generic.comment.placementRestriction": "启用后，使用键只能在手持针对目标位置的正确物品时使用，\n并且目标位置在结构图中必须是一个缺失的方块。",
     "litematica.config.generic.comment.renderMaterialListInGuis": "材质列表是否应该在 GUI 中呈现",
     "litematica.config.generic.comment.renderThreadNoTimeout": "从渲染工作线程中移除超时。\n如果你在处理大型原理图的时候渲染的很不流畅，\n试着禁用它。但是在某些情况下，它会使示意图的渲染速度慢很多。",
@@ -377,7 +377,10 @@
     "litematica.config.info_overlays.comment.materialListHudMaxLines": "控制材料 HUD 的最大行数",
     "litematica.config.info_overlays.comment.materialListHudScale": "控制材料 HUD 的缩放大小",
     "litematica.config.info_overlays.comment.statusInfoHud": "启用状态信息的显示，该显示内容默认位于左下角\n其内容包含当前渲染层的状态与层数\n当然，这是在手持非木棍的情况下显示的。",
+    
     "litematica.config.info_overlays.comment.statusInfoHudAuto": "允许自动暂时开启状态信息 HUD 比如当需要时，\n例如当创建一个位置或者渲染禁用时",
+    // 显示注释错误，sakura在这里没有进行注释的重定向
+
     "litematica.config.info_overlays.comment.toolHudOffsetX": "信息 HUD 相对于屏幕边缘的 X 轴偏移量。",
     "litematica.config.info_overlays.comment.toolHudOffsetY": "信息 HUD 相对于屏幕边缘的 Y 轴偏移量。",
     "litematica.config.info_overlays.comment.toolHudScale": "控制工具 HUD 的文本缩放大小",
