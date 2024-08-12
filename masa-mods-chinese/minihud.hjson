@@ -278,7 +278,7 @@
     "minihud.config.info_toggle.name.infoMemoryUsage": "MemoryUsage | 内存使用",
     "minihud.config.info_toggle.name.infoMobCaps": "MobCaps | 刷怪占用",
     "minihud.config.info_toggle.name.infoLoadedChunksCount": "Loaded | 区块加载计数",
-    "minihud.config.info_toggle.name.infoPandaGene": "infoPandaGene",
+    "minihud.config.info_toggle.name.infoPandaGene": "PandaGene | 熊猫基因",
     "minihud.config.info_toggle.name.infoParticleCount": "Particle | 粒子信息",
     "minihud.config.info_toggle.name.infoPing": "Ping | 延迟信息",
     "minihud.config.info_toggle.name.infoRegionFile": "RegionFile | 显示区域文件",
