@@ -262,7 +262,10 @@
     "litematica.config.generic.comment.pasteNbtRestoreBehavior": "需要用何种方法尝试恢复方块 NBT 数据?  \n- Place & Data Modify, 会把带 NBT 的方块放在玩家附近后 \n  用 data modify 指令转换这些用 setblock 放的方块 \n- Place & Clone, 会尝试放置带 NBT 方块在玩家附近然后 \n  用 clone 指令复制到最终位置 \n- Teleport & Place, 会尝试 tp 到附近位置然后直接在 \n  正确的位置放下带 NBT 方块 \n请注意 Teleport & Place 方法现在不太好用甚至完全用不了.  \n建议的方法是 Place & Data Modify, 然而要让这种方法生效 \n得降低粘贴命令限制到 1/tick 并将粘贴间隔增加到  \n1-4 个 tick 或者调别的什么东西 \n因此你只应当用这种方法粘贴需要迁移数据的重要方块.  \n例如, 做了包含库存内容的原理图,  \n然后在替换规则被设置为 None 的时候粘贴原理图",
     "litematica.config.generic.comment.pasteReplaceBehavior": "在粘贴原理图工具模式中替换现有块的方式",
     "litematica.config.generic.comment.placementReplaceBehavior": "当原理图粘贴时, 方块的替换方式\n这将会允许直接改变重叠的位置, \n而不需要后面处理的位置总是先用空气覆盖前面的位置. \n另一方面, 一些像光照方块这样的方块被认为是空气, \n所以它们需要\"All\"替换行为来放置",
-    "litematica.config.generic.comment.placementRestrictionWarn": "当简单放置模式或放置限制阻止玩家放置一个方块时, \n选择要显示的警告信息类型\n-物品栏模式: 显示在物品栏上方\n-消息模式: 橙色的弹出消息样式",
+
+    // "litematica.config.generic.comment.placementRestrictionWarn": "当简单放置模式或放置限制阻止玩家放置一个方块时, \n选择要显示的警告信息类型\n-物品栏模式: 显示在物品栏上方\n-消息模式: 橙色的弹出消息样式",
+    "litematica.generic.config.comment.placementRestrictionWarn": "当简单放置模式或放置限制阻止玩家放置一个方块时, \n选择要显示的警告信息类型\n-物品栏模式: 显示在物品栏上方\n-消息模式: 橙色的弹出消息样式",
+    // sakura 写错键值
     "litematica.config.generic.comment.toolItemComponents":"一个数据组件感知版本的[工具项目].\n设置 \"Empty\" 以禁用.\n接收与 \"/give\" 命令相同的语法",
     "litematica.config.generic.comment.cornerSelectionMode": "要使用的区域选择模式(角点, 或展开)",
     "litematica.config.generic.comment.customSchematicBaseDirectoryEnabled": "如果启用该功能, 则在§6[自定义原理图目录]§f\n中设置的目录路径将用为原理图的根目录, \n而不是正常的§1 .minecraft/schematics/ §r目录",
