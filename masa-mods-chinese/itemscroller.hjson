@@ -21,7 +21,7 @@
     "itemscroller.config.generic.name.sortAssumeEmptyBoxStacks": "SortEmptyBox | 空潜影盒堆叠整理",
     "itemscroller.config.generic.name.sortShulkerBoxesAtEnd": "SortShulkerBoxesAtEnd | 潜影盒放在最后",
     
-    "itemscroller.config.generic.comment.carpetCtrlQCraftingEnabledOnServer": "如果服务器正在运行地毯端则建议开启\n这将改变物品滚轮整组丢弃的使用方式\n变为丢弃+Shift+右击丢弃整组",
+    "itemscroller.config.generic.comment.carpetCtrlQCraftingEnabledOnServer": "如果服务器正在运行地毯端则建议开启\n这将改变物品滚轮整组丢弃的使用方式\n变为 丢弃快捷键+Shift+右击 丢弃整组",
     "itemscroller.config.generic.comment.clientCraftingFixOn1_12": "在客户端直接更新合成配方输出\n这修正了在1.12中快速/批量制造和右键点击制造所产生的不可使用的问题",
     "itemscroller.config.generic.comment.craftingRenderRecipeItems": "启用后, 配方物品也将呈现于合成配方视图中",
     "itemscroller.config.generic.comment.debugMessages": "启用后, 将会输出调试信息到游戏控制台中",
@@ -105,7 +105,7 @@
     "itemscroller.config.hotkeys.comment.openConfigGui": "打开游戏内配置界面",
     "itemscroller.config.hotkeys.comment.craftEverything": "用当前选定的配方消耗完所有的材料进行合成",
     "itemscroller.config.hotkeys.comment.dropAllMatching": "丢弃所有与鼠标指针指向的物品向匹配的物品",
-    "itemscroller.config.hotkeys.comment.massCraft": "批量合成当前选择的配方并将产物丢出, \n只要你按住快捷键",
+    "itemscroller.config.hotkeys.comment.massCraft": "批量合成当前选择的配方并将产物丢出, \n需要你按住快捷键",
     "itemscroller.config.hotkeys.comment.moveCraftResults": "将当前选择配方的所有材料全部放置于合成台上",
     "itemscroller.config.hotkeys.comment.recipeView": "显示配方GUI",
     "itemscroller.config.hotkeys.comment.slotDebug": "打印鼠标悬停栏位或GUI的调试信息\n(译注: 非调试时无需设置)",
