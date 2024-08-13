@@ -29,6 +29,7 @@
 1. 将本项目clone到本地 - `git clone https://github.com/DreamingLri/masa-mods-chinese.git`
 2. pip安装`hjson`包 - `pip install hjson`
 3. 运行`generate.py`文件即可获得资源包 - `python generate.py`
+4. 如果你想要重命名资源包，运行`rename.py`即可重命名 - `python rename.py`
 
 ## 结语
 
