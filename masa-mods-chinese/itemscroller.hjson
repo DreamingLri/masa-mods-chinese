@@ -37,7 +37,7 @@
     "itemscroller.config.generic.comment.reverseScrollDirectionSingle": "反转滚动方向为单个物品移动模式",
     "itemscroller.config.generic.comment.reverseScrollDirectionStacks": "反转滚动方向为单组物品移动模式",
     "itemscroller.config.generic.comment.useRecipeCaching": "在合成配方操作获取输出项参数时, \n传递缓存中最后使用的配方参数. \n当大量合成物品时, 这可以大大降低CPU使用率",
-    "itemscroller.config.generic.comment.useSlotPositionAwareScrollDirection": "启用后, 物品的移动方向将取决于屏幕上栏位的y轴位置. \n可能导致更复杂的背包, 谨慎使用! ",
+    "itemscroller.config.generic.comment.useSlotPositionAwareScrollDirection": "启用后, 物品的移动方向将取决于屏幕上栏位的y轴位置. \n在更复杂的物品栏中可能会出现问题, 谨慎使用! ",
     "itemscroller.config.generic.comment.villagerTradeUseGlobalFavorites": "启用后, 收藏的交易项目将会被置顶",
     "itemscroller.config.generic.comment.villagerTradeListRememberScrollPosition": "启用后, 退出村民交易GUI将不会重置滚动条",
     "itemscroller.config.generic.comment.sortAssumeEmptyBoxStacks": "整理物品栏时假设空潜影盒可以堆叠. \n当你在远程服务器启用此特性时会很有用. \n这会多发送一个网络包来确保服务器同步",
@@ -67,7 +67,7 @@
     "itemscroller.config.toggles.comment.enableScrollingVillager": "为交易GUI进行特殊处理, 允许对输出位的物品进行滚动来进行快速交易",
     "itemscroller.config.toggles.comment.enableShiftDropItems": "允许通过按住 shift 键并单击物品时扔出所有匹配的物品",
     "itemscroller.config.toggles.comment.enableShiftPlaceItems": "允许通过按住 shift 键并将物品放置在空位时移动所有匹配的物品",
-    "itemscroller.config.toggles.comment.enableVillagerTradeFeatures": "为村民启用交易收藏和快速交易功能. \n注意:  §6[滚动交易]§f 是一个单独的功能, 不受此选项的影响. \n此选项允许通过单击鼠标中键来标记最喜欢的交易, \n并开启在交易列表上右键单击物品购空物品的功能",
+    "itemscroller.config.toggles.comment.enableVillagerTradeFeatures": "为村民启用交易收藏和快速交易功能. \n注意: §6[滚动交易]§f 是一个单独的功能, 不受此选项的影响. \n此选项允许通过单击鼠标中键来标记最喜欢的交易, \n并开启在交易列表上右键单击物品购空物品的功能",
     
     "itemscroller.config.hotkeys.name.openConfigGui": "OpenConfigGui | 打开配置界面",
     "itemscroller.config.hotkeys.name.craftEverything": "CraftEverything | 全部合成",
