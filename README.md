@@ -36,7 +36,7 @@
 > [!NOTE]
 > 由于 [Sakura Ryoko](https://github.com/sakura-ryoko) 版本的masa mods部分存在config引用错误，有些汉化无法显示(其实英文也没法显示)，出现问题的地方已经使用注释标记在hjson中，需等待 Sakura 修复
 >
-> 这里有我修复过[tweakeroo](https://github.com/DreamingLri/tweakeroo/releases)和[litematica](https://github.com/DreamingLri/litematica/releases)
+> 2023.8.14 sakura已merge修改，估计不久之后会修复
 
 感谢 [醉梦巅峰](mailto:893136473@qq.com) 和 [新兵Sinbing](https://github.com/Sinbing) 对masa mods汉化的贡献
 
