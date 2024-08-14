@@ -287,6 +287,7 @@
 
     "tweakeroo.config.disable.comment.disableBatSpawning": "在单人模式下禁用蝙蝠生成",
     // 中英文均不显示
+    // 已fix
 
     "tweakeroo.config.disable.comment.disableBeaconBeamRendering": "关闭信标光柱渲染",
     "tweakeroo.config.disable.comment.disableBlockBreakingParticles": "移除当方块破碎时产生的粒子效果(由nessie制作)",

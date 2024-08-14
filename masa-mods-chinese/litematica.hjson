@@ -5,26 +5,26 @@
     "litematica.config.generic.name.placementReplaceBehavior": "ReplaceBehavior | 粘贴替换模式优化",
     "litematica.config.generic.name.placementRestrictionWarn": "RestrictionWarn | 放置限制警告",
 
-    // "litematica.config.generic.name.selectionCornersMode": "SelectionCornersMode",
+    "litematica.config.generic.name.selectionCornersMode": "SelectionCornersMode",
     "litematica.config.generic.name.cornerSelectionMode": "Selection | 选择选区模式",
     // sakura 在这个位置写错了名字
-    
+    // 已fix
     "litematica.config.generic.name.customSchematicBaseDirectoryEnabled": "Schematic | 自定义原理图目录",
     "litematica.config.generic.name.customSchematicBaseDirectory": "BaseDirectory | 自定目录路径",
     "litematica.config.generic.name.areaSelectionsPerWorld": "AreaSelections | 世界区域选择",
     "litematica.config.generic.name.betterRenderOrder": "BetterRenderOrder | 更好的渲染顺序",
     "litematica.config.generic.name.changeSelectedCornerOnMove": "ChangeSelected | 更改角点选择",
 
-    // "litematica.config.generic.name.cloneAtOriginalPosition": "CloneAt | 原位克隆",
+    "litematica.config.generic.name.cloneAtOriginalPosition": "CloneAt | 原位克隆",
     "litematica.generic.config.name.cloneAtOriginalPosition": "CloneAt | 原位克隆",
     // sakura 在这个位置写错了地址
-
+    // 已fix
     "litematica.config.generic.name.commandDisableFeedback": "DisableFeedback | 禁用命令反馈",
 
-    // "litematica.config.generic.name.commandFillMaxVolume": "FillMax | 最大命令填充体积",
+    "litematica.config.generic.name.commandFillMaxVolume": "FillMax | 最大命令填充体积",
     "litematica.config.name.commandFillMaxVolume": "FillMax | 最大命令填充体积",
     // sakura 在这个位置写错了地址
-
+    // 已fix
     "litematica.config.generic.name.commandFillNoChunkClamp": "FillNoChunkClamp | 命令填充无区块限制",
     "litematica.config.generic.name.commandLimitPerTick": "LimitPerTick | 命令限速",
     "litematica.config.generic.name.commandNameClone": "NameClone | Clone命名",
@@ -68,7 +68,7 @@
 
     "litematica.config.generic.name.pickBlockEnabled": "PickBlock | 方块抓取启用",
     // 不显示是因为sakura忘了写translatedName转化
-
+    // 已fix
     "litematica.config.generic.name.pickBlockShulkers": "PickBlock | 潜影盒选块",
     "litematica.config.generic.name.pickBlockableSlots": "PickBlockable | 快捷选择栏位",
     "litematica.config.generic.name.placementRestriction": "PlacementRestriction | 限制放置",
@@ -84,10 +84,10 @@
     "litematica.config.visuals.name.schematicOverlayModelOutline":"SchematicOverlayModelOutline | 原理图模型轮廓",
     "litematica.config.visuals.name.schematicOverlayModelSides":"SchematicOverlayModelSides | 原理图模型边缘",
 
-    // "litematica.config.hotkeys.name.schematicCyclePrevious":"SchematicVersionCyclePrevious | 上一个投影版本",
+    "litematica.config.hotkeys.name.schematicCyclePrevious":"SchematicVersionCyclePrevious | 上一个投影版本",
     "litematica.config.hotkeys.name.schemaCyclePrevious":"SchematicVersionCyclePrevious | 上一个投影版本",
     // sakura 命名错误 name 和 comment 不一致
-
+    // 已fix
     "litematica.config.hotkeys.name.unloadCurrentSchematic":"UnloadCurrentSchematic| 卸载当前原理图",
     
     "litematica.config.visuals.name.enableAreaSelectionBoxesRendering": "EnableArea | 选区边框启用切换",
@@ -199,17 +199,18 @@
     "litematica.config.hotkeys.name.schematicEditBreakPlaceAll": "BreakPlace | 删除同类方块",
     "litematica.config.hotkeys.name.schematicEditBreakPlaceDirection": "BreakPlace | 同方块线性增删",
 
-    // "litematica.config.hotkeys.name.schematicEditReplaceAll": "ReplaceAll | 替换同类方块",
+    "litematica.config.hotkeys.name.schematicEditReplaceAll": "ReplaceAll | 替换同类方块",
     "litematica.config.hotkeys.name.schemaEditReplaceAll": "ReplaceAll | 替换同类方块",
     // sakura 命名错误 name 和 comment 不一致
-    // "litematica.config.hotkeys.name.schematicEditReplaceBlock": "ReplaceBlock | 替换其他方块",
+    // 已fix
+    "litematica.config.hotkeys.name.schematicEditReplaceBlock": "ReplaceBlock | 替换其他方块",
     "litematica.config.hotkeys.name.schemaEditReplaceBlock": "ReplaceBlock | 替换其他方块",
     // sakura 命名错误 name 和 comment 不一致
-
-    // "litematica.config.hotkeys.name.schematicEditReplaceDirection": "ReplaceDirection | 同方块线性替换",
+    // 已fix
+    "litematica.config.hotkeys.name.schematicEditReplaceDirection": "ReplaceDirection | 同方块线性替换",
     "litematica.config.hotkeys.name.schemaEditReplaceDirection": "ReplaceDirection | 同方块线性替换",
     // sakura 命名错误 name 和 comment 不一致
-
+    // 已fix
     "litematica.config.hotkeys.name.schematicPlacementRotation": "PlacementRotation | 旋转投影图",
     "litematica.config.hotkeys.name.schematicPlacementMirror": "PlacementMirror | 镜像投影图",
 
@@ -226,10 +227,10 @@
     "litematica.config.hotkeys.name.setSelectionBoxPosition2": "SetSelectionBox | 设置角点2",
     "litematica.config.hotkeys.name.toggleAllRendering": "ToggleAllRendering | 切换所有渲染",
 
-    // "litematica.config.hotkeys.name.toggleAreaSelectionBoxesRendering": "ToggleAreaSelection | 区域选框渲染",
+    "litematica.config.hotkeys.name.toggleAreaSelectionBoxesRendering": "ToggleAreaSelection | 区域选框渲染",
     "litematica.config.hotkeys.name.toggleAreaSelection": "ToggleAreaSelection | 区域选框渲染",
     // sakura 命名错误 name 和 comment 不一致
-
+    // 已fix
     "litematica.config.hotkeys.name.toggleSchematicRendering": "ToggleSchematic | 投影方块渲染",
     "litematica.config.hotkeys.name.toggleInfoOverlayRendering": "ToggleInfoOverlay | 方块信息显示",
     "litematica.config.hotkeys.name.toggleOverlayRendering": "ToggleOverlay | 投影方块显示",
@@ -245,17 +246,17 @@
     "litematica.config.hotkeys.name.toggleVerifierOverlayRendering": "ToggleVerifier | 验证覆盖",
 
 
-    // "litematica.config.hotkeys.name.toolEnabledToggle": "ToolEnabledToggle | 工具切换",
+    "litematica.config.hotkeys.name.toolEnabledToggle": "ToolEnabledToggle | 工具切换",
     "litematica.config.hotkeys.name.toggleEnabledToggle": "ToolEnabledToggle | 工具切换",
-    // "litematica.config.hotkeys.name.toolPlaceCorner1": "ToolPlaceCorner | 角点1放置",
+    "litematica.config.hotkeys.name.toolPlaceCorner1": "ToolPlaceCorner | 角点1放置",
     "litematica.config.hotkeys.name.togglePlaceCorner1": "ToolPlaceCorner | 角点1放置",
-    // "litematica.config.hotkeys.name.toolPlaceCorner2": "ToolPlaceCorner | 角点2放置",
+    "litematica.config.hotkeys.name.toolPlaceCorner2": "ToolPlaceCorner | 角点2放置",
     "litematica.config.hotkeys.name.togglePlaceCorner2": "ToolPlaceCorner | 角点2放置",
-    // "litematica.config.hotkeys.name.toolSelectElements": "ToolSelectElements | 区域选择",
+    "litematica.config.hotkeys.name.toolSelectElements": "ToolSelectElements | 区域选择",
     "litematica.config.hotkeys.name.toggleSelectElements": "ToolSelectElements | 区域选择",
-    // "litematica.config.hotkeys.name.toolSelectModifierBlock1": "ToolSelect | 主方块选择",
+    "litematica.config.hotkeys.name.toolSelectModifierBlock1": "ToolSelect | 主方块选择",
     "litematica.config.hotkeys.name.toggleSelectModifierBlock1": "ToolSelect | 主方块选择",
-    // "litematica.config.hotkeys.name.toolSelectModifierBlock2": "ToolSelect | 副方块选择",
+    "litematica.config.hotkeys.name.toolSelectModifierBlock2": "ToolSelect | 副方块选择",
     "litematica.config.hotkeys.name.toggleSelectModifierBlock2": "ToolSelect | 副方块选择",
 
     "litematica.config.generic.comment.easyPlaceProtocolVersion": "要使用的§6[简单放置协议]§f的类型. \n-Version 3:仅支持 Litematica 本身(在单人游戏中). \n-Version 2:兼容Carpet mod. \n- Slabs only: 只修复top slabs.兼容Paper servers.\n- 关闭: 不做调整",
@@ -263,9 +264,10 @@
     "litematica.config.generic.comment.pasteReplaceBehavior": "在粘贴原理图工具模式中替换现有块的方式",
     "litematica.config.generic.comment.placementReplaceBehavior": "当原理图粘贴时, 方块的替换方式\n这将会允许直接改变重叠的位置, \n而不需要后面处理的位置总是先用空气覆盖前面的位置. \n另一方面, 一些像光照方块这样的方块被认为是空气, \n所以它们需要\"All\"替换行为来放置",
 
-    // "litematica.config.generic.comment.placementRestrictionWarn": "当简单放置模式或放置限制阻止玩家放置一个方块时, \n选择要显示的警告信息类型\n-物品栏模式: 显示在物品栏上方\n-消息模式: 橙色的弹出消息样式",
+    "litematica.config.generic.comment.placementRestrictionWarn": "当简单放置模式或放置限制阻止玩家放置一个方块时, \n选择要显示的警告信息类型\n-物品栏模式: 显示在物品栏上方\n-消息模式: 橙色的弹出消息样式",
     "litematica.generic.config.comment.placementRestrictionWarn": "当简单放置模式或放置限制阻止玩家放置一个方块时, \n选择要显示的警告信息类型\n-物品栏模式: 显示在物品栏上方\n-消息模式: 橙色的弹出消息样式",
     // sakura 写错键值
+    // 已fix
     "litematica.config.generic.comment.toolItemComponents":"一个数据组件感知版本的[工具项目].\n设置 \"Empty\" 以禁用.\n接收与 \"/give\" 命令相同的语法",
     "litematica.config.generic.comment.cornerSelectionMode": "要使用的区域选择模式(角点, 或展开)",
     "litematica.config.generic.comment.customSchematicBaseDirectoryEnabled": "如果启用该功能, 则在§6[自定义原理图目录]§f\n中设置的目录路径将用为原理图的根目录, \n而不是正常的§1 .minecraft/schematics/ §r目录",
@@ -383,6 +385,7 @@
     
     "litematica.config.info_overlays.comment.statusInfoHudAuto": "允许自动暂时开启状态信息 HUD 比如当需要时, \n例如当创建一个位置或者渲染禁用时",
     // 显示注释错误, sakura在这里没有进行注释的重定向
+    // 已fix
 
     "litematica.config.info_overlays.comment.toolHudOffsetX": "信息 HUD 相对于屏幕边缘的 X 轴偏移量",
     "litematica.config.info_overlays.comment.toolHudOffsetY": "信息 HUD 相对于屏幕边缘的 Y 轴偏移量",
