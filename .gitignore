@@ -3,3 +3,5 @@ assets/
 masa-mods-chinese.zip
 .conda
 output.txt
+/test
+/get_origin.py
