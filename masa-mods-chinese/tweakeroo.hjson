@@ -2,7 +2,7 @@
     "tweakeroo.config.generic.name.accuratePlacementProtocolMode": "AccuratePlacementMode | 精确放置协议模式",
     "tweakeroo.config.generic.name.accuratePlacementProtocol": "AccuratePlacement | 精确放置协议",
     "tweakeroo.config.generic.name.afterClickerClickCount": "AfterClicker | 放置后点击次数",
-    "tweakeroo.config.generic.name.angelBlockPlacementDistance": "AngelBlock | 空中放置方块距离",
+    "tweakeroo.config.generic.name.angelBlockPlacementDistance": "AngelBlock | 凭空放置距离",
     "tweakeroo.config.generic.name.blockReachDistance": "BlockReach | 方块放置距离",
     "tweakeroo.config.generic.name.blockTypeBreakRestrictionWarn": "BlockBreakWarn | 破坏限制警告",
     "tweakeroo.config.generic.name.breakingGridSize": "Breaking | 破坏间隔调节",
@@ -81,9 +81,9 @@
     "tweakeroo.config.generic.name.toolSwitchIgnoredSlots": "ToolSwitch | 工具选择忽略槽位",
     "tweakeroo.config.generic.name.toolSwapBetterEnchants": "ToolSwapBetterEnchants | 切换附魔更好的工具",
     "tweakeroo.config.generic.name.weaponSwapBetterEnchants": "WeaponSwapBetterEnchants | 切换附魔更好的武器",
-    "tweakeroo.config.generic.name.zoomAdjustMouseSensitivity": "ZoomAdjustMouse | 调整缩放灵敏度",
-    "tweakeroo.config.generic.name.zoomFov": "ZoomFov | 缩放时视角",
-    "tweakeroo.config.generic.name.zoomResetFovOnActivate": "ZoomResetFovOnActivate | 缩放视角重置",
+    "tweakeroo.config.generic.name.zoomAdjustMouseSensitivity": "ZoomAdjustMouse | 调整望远镜缩放灵敏度",
+    "tweakeroo.config.generic.name.zoomFov": "ZoomFov | 望远镜视角",
+    "tweakeroo.config.generic.name.zoomResetFovOnActivate": "ZoomResetFovOnActivate | 望远镜视角重置",
 
     "tweakeroo.config.generic.comment.accuratePlacementProtocolMode": "要使用的[精确放置协议]类型. \n- 自动: 在单人游戏中使用v3, 默认在多人游戏中使用仅限半砖, \n除非服务器有发送 'carpet:hello' 数据包的Carpet模组,\n在这种情况下, 该服务器上将使用v2. \n- Version 3: 由Tweakeroo本身支持(在单人游戏中)或与Servux一起使用. \n- Version2: 与具有Carpet模组的服务器兼容\n(包括skyrising和DeadlyMC的QuickCarpet, \n或者在FabricCarpet基础上增加CarpetExtra. \n在这两种情况下, 服务器都需要启用 'accurateBlockPlacement' Carpet规则). \n- Slabs only: 只修正顶部半砖. 与Paper服务器兼容. \n- 关闭: 不进行修正",
     "tweakeroo.config.generic.comment.accuratePlacementProtocol": "如果启用, 那么灵活放置和精确放置将会使用地毯mod实现. \n§6注意:任何方块旋转都需要这样做, \n§6除了方向只依赖于你在侧面点击的方块(漏斗、原木等)",
@@ -168,9 +168,9 @@
     "tweakeroo.config.generic.comment.toolSwitchableSlots": "工具选择的物品栏调整为允许选择的物品栏位. \n请注意, 工具选择也可以切换到快捷栏中的其他物品栏位, \n如果已经拥有首选工具, 只会将新工具切换到这些物品栏位",
     "tweakeroo.config.generic.comment.toolSwapBetterEnchants": "在工具切换时, 优先考虑工具是否匹配, \n之后才考虑工具的附魔和稀有度",
     "tweakeroo.config.generic.comment.weaponSwapBetterEnchants": "在武器切换时, 优先考虑武器是否匹配, \n之后才虑武器的附魔和稀有度",
-    "tweakeroo.config.generic.comment.zoomAdjustMouseSensitivity": "开启此项后, 在按下§6[激活望远镜]§f快捷键时, 会降低鼠标灵敏度",
+    "tweakeroo.config.generic.comment.zoomAdjustMouseSensitivity": "开启此项后, 在按下§6[启用望远镜]§f快捷键时, 会降低鼠标灵敏度",
     "tweakeroo.config.generic.comment.zoomFov": "设置使用望远镜时的视野角度",
-    "tweakeroo.config.generic.comment.zoomResetFovOnActivate": "如果使用鼠标滚轮调整了摄像机缩放视野, \n则在停用时重置该视野",
+    "tweakeroo.config.generic.comment.zoomResetFovOnActivate": "如果使用鼠标滚轮调整了望远镜缩放视野, \n在停用时重置该视野",
 
     "tweakeroo.config.fixes.name.elytraFix": "ElytraFix | 鞘翅修复",
     "tweakeroo.config.fixes.name.macHorizontalScroll": "MacScroll | MAC修复",
@@ -390,7 +390,7 @@
     "tweakeroo.config.hotkey.name.toggleGrabCursor": "GrabCursor | 切换鼠标",
     "tweakeroo.config.hotkey.name.toolPick": "ToolPick | 自动选择工具",
     "tweakeroo.config.hotkey.name.writeMapsAsImages": "WriteMaps | 地图导出",
-    "tweakeroo.config.hotkey.name.zoomActivate": "ZoomActivate | 激活望远镜",
+    "tweakeroo.config.hotkey.name.zoomActivate": "ZoomActivate | 启用望远镜",
 
     "tweakeroo.config.hotkey.comment.accurateBlockPlacementInto": "激活精确放置的快捷键, 使用后方块将放置于点击的块面上",
     "tweakeroo.config.hotkey.comment.accurateBlockPlacementReverse": "激活精确放置的快捷键, 使用后方块将反向放置于点击的块面上",
@@ -435,7 +435,7 @@
     "tweakeroo.config.hotkey.comment.toggleGrabCursor": "将鼠标从当前窗口切换到外部窗口, 在外部窗口的鼠标操作不影响游戏内操作",
     "tweakeroo.config.hotkey.comment.toolPick": "按下快捷键后切换到适合采集当前方块的工具",
     "tweakeroo.config.hotkey.comment.writeMapsAsImages": "将所有当前可用的地图作为图像写入到 \n'config/tweakeroo/map images/<world name>/' 目录",
-    "tweakeroo.config.hotkey.comment.zoomActivate": "望远镜激活热键",
+    "tweakeroo.config.hotkey.comment.zoomActivate": "望远镜启用热键",
 
     "tweakeroo.config.feature_toggle.name.tweakAccurateBlockPlacement": "AccurateBlock | 精准放置模式",
     "tweakeroo.config.feature_toggle.name.tweakAfterClicker": "AfterClicker | 放置后点击",
@@ -517,7 +517,7 @@
     "tweakeroo.config.feature_toggle.name.tweakToolSwitch": "ToolSwitch | 工具自动选择",
     "tweakeroo.config.feature_toggle.name.tweakWeaponSwitch": "WeaponSwitch | 武器自动选择",
     "tweakeroo.config.feature_toggle.name.tweakYMirror": "YMirror | Y轴镜像放置",
-    "tweakeroo.config.feature_toggle.name.tweakZoom": "Zoom | 启用望远镜",
+    "tweakeroo.config.feature_toggle.name.tweakZoom": "Zoom | 望远镜",
 
     "tweakeroo.config.feature_toggle.prettyName.tweakAccurateBlockPlacement": "精准放置模式",
     "tweakeroo.config.feature_toggle.prettyName.tweakAfterClicker": "放置后点击",
@@ -682,7 +682,7 @@
     "tweakeroo.config.feature_toggle.comment.tweakToolSwitch": "开启后将在挖掘方块时自动切换为有效工具",
     "tweakeroo.config.feature_toggle.comment.tweakWeaponSwitch": "根据目标实体的不同自动切换武器",
     "tweakeroo.config.feature_toggle.comment.tweakYMirror": "启用后按下快捷键时, 方块将放置为Y轴镜像的姿势. \n这功能主要是为了放置上下相反的半砖和楼梯. \n快捷键默认为空, 需要在§6[通用功能快捷键] -> [Y轴镜像放置]§f中设置",
-    "tweakeroo.config.feature_toggle.comment.tweakZoom": "启用后需要在§6[通用功能快捷键] -> [激活望远镜]§f中设置快捷键来使用望远镜"
+    "tweakeroo.config.feature_toggle.comment.tweakZoom": "启用后需要在§6[通用功能快捷键] -> [启用望远镜]§f中设置快捷键来使用望远镜"
 
     "tweakeroo.gui.button.config_gui.disables": "禁用类功能",
     "tweakeroo.gui.button.config_gui.fixes": "修复",
