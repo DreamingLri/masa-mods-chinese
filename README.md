@@ -20,6 +20,7 @@
 > 由于只适配了1.21 [Sakura Ryoko](https://github.com/sakura-ryoko) 版本的`masa mods`，并不能保证此数据包能够正常应用在1.21版本之前的`masa mods`
 
 ## 如何使用
+
 从[Release](https://github.com/DreamingLri/masa-mods-chinese/releases)下载最新版本汉化包，之后将汉化包放入`resourcepacks`文件夹中即可使用
 
 ---
@@ -29,14 +30,14 @@
 1. 将本项目clone到本地 - `git clone https://github.com/DreamingLri/masa-mods-chinese.git`
 2. pip安装`hjson`包 - `pip install hjson`
 3. 运行`generate.py`文件即可获得资源包 - `python generate.py`
-4. 如果你想要重命名资源包，运行`rename.py`即可重命名 - `python rename.py`
+4. 重命名资源包，运行`rename.py`即可重命名 - `python rename.py`
 
 ## 结语
 
 > [!NOTE]
 > 由于 [Sakura Ryoko](https://github.com/sakura-ryoko) 版本的masa mods部分存在config引用错误，有些汉化无法显示(其实英文也没法显示)，出现问题的地方已经使用注释标记在hjson中，需等待 Sakura 修复
 >
-> 2023.8.14 sakura已merge修改[#51](https://github.com/sakura-ryoko/tweakeroo/pull/51) [#78](https://github.com/sakura-ryoko/litematica/pull/78)，估计不久之后会修复
+> 2023.8.14 Sakura 已merge修改[#51](https://github.com/sakura-ryoko/tweakeroo/pull/51) [#78](https://github.com/sakura-ryoko/litematica/pull/78)，估计不久之后会修复
 
 感谢 [醉梦巅峰](mailto:893136473@qq.com) 和 [新兵Sinbing](https://github.com/Sinbing) 对masa mods汉化的贡献
 
