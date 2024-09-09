@@ -1,0 +1,194 @@
+[
+    {
+        "identifier": "\"syncmatica.gui.button.view_syncmatics\"",
+        "source_string": "View Syncmatics",
+        "translation": "Syncmatics菜单",
+        "context": " -> syncmatica.gui.button.view_syncmatics",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"syncmatica.gui.button.material_gatherings\"",
+        "source_string": "Material Collections",
+        "translation": "收藏的材料(无实际功能)",
+        "context": " -> syncmatica.gui.button.material_gatherings",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"syncmatica.gui.button.load\"",
+        "source_string": "Load",
+        "translation": "载入",
+        "context": " -> syncmatica.gui.button.load",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"syncmatica.gui.button.unload\"",
+        "source_string": "Unload",
+        "translation": "卸载",
+        "context": " -> syncmatica.gui.button.unload",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"syncmatica.gui.button.remove\"",
+        "source_string": "Remove",
+        "translation": "删除",
+        "context": " -> syncmatica.gui.button.remove",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"syncmatica.gui.button.download\"",
+        "source_string": "Download",
+        "translation": "下载",
+        "context": " -> syncmatica.gui.button.download",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"syncmatica.gui.button.downloading\"",
+        "source_string": "Downloading...",
+        "translation": "下载中...",
+        "context": " -> syncmatica.gui.button.downloading",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"syncmatica.gui.button.share\"",
+        "source_string": "Share",
+        "translation": "上传",
+        "context": " -> syncmatica.gui.button.share",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"syncmatica.gui.button.material_gathering_placement\"",
+        "source_string": "Materials",
+        "translation": "材料(无实际功能)",
+        "context": " -> syncmatica.gui.button.material_gathering_placement",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"syncmatica.gui.title.manage_server_placements\"",
+        "source_string": "Manage Server Placements - %s",
+        "translation": "管理服务器配置 - %s",
+        "context": " -> syncmatica.gui.title.manage_server_placements",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"syncmatica.gui.label.placement_info.file_name\"",
+        "source_string": "File Name",
+        "translation": "文件名",
+        "context": " -> syncmatica.gui.label.placement_info.file_name",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"syncmatica.gui.label.placement_info.position\"",
+        "source_string": "Origin (xyz)",
+        "translation": "原点 (xyz)",
+        "context": " -> syncmatica.gui.label.placement_info.position",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"syncmatica.gui.label.placement_info.dimension_id\"",
+        "source_string": "Dimension",
+        "translation": "维度",
+        "context": " -> syncmatica.gui.label.placement_info.dimension_id",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"syncmatica.gui.label.placement_info.owner\"",
+        "source_string": "Originally shared by",
+        "translation": "上传者",
+        "context": " -> syncmatica.gui.label.placement_info.owner",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"syncmatica.gui.label.placement_info.last_modified\"",
+        "source_string": "Last modified by",
+        "translation": "最后的修改者",
+        "context": " -> syncmatica.gui.label.placement_info.last_modified",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"syncmatica.error.share_without_shift\"",
+        "source_string": "Press shift to share",
+        "translation": "按下Shift键以分享原理图",
+        "context": " -> syncmatica.error.share_without_shift",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"syncmatica.error.share_modified_subregions\"",
+        "source_string": "Share Error - Connected Server does not support sharing of modified subregions - it needs to update.",
+        "translation": "共享错误: 服务器不支持共享已修改的子区域, 它需要更新",
+        "context": " -> syncmatica.error.share_modified_subregions",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"syncmatica.error.modification_deny\"",
+        "source_string": "Denied Modification request - Another user is already modifying this placement.",
+        "translation": "被拒绝的修改请求 - 其他用户已修改此文件的展示位置",
+        "context": " -> syncmatica.error.modification_deny",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"syncmatica.error.player_dimension_mismatch\"",
+        "source_string": "Player needs to be in the same dimension as placement to load.",
+        "translation": "玩家需要与要加载的原理图处于同一维度",
+        "context": " -> syncmatica.error.player_dimension_mismatch",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"syncmatica.error.create_from_schematic\"",
+        "source_string": "Error creating Syncmatic from schematic: {}",
+        "translation": "从原理图创建同步时出错: {} ",
+        "context": " -> syncmatica.error.create_from_schematic",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"syncmatica.error.share_incompatible_schematic\"",
+        "source_string": "Convert this file using the Schematic Manager from the main menu to share it",
+        "translation": "请使用主菜单中的原理图管理器转换此文件以共享",
+        "context": " -> syncmatica.error.share_incompatible_schematic",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"syncmatica.error.invalid_file\"",
+        "source_string": "Cannot share this type of file",
+        "translation": "无法共享此类型的文件",
+        "context": " -> syncmatica.error.invalid_file",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"syncmatica.error.failed_to_load\"",
+        "source_string": "Failed to load litematic {}",
+        "translation": "无法加载Litematica模组 {} ",
+        "context": " -> syncmatica.error.failed_to_load",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"syncmatica.success.modification_accepted\"",
+        "source_string": "Modification request accept - Lock the placement again to share the results to the server",
+        "translation": "允许的修改请求 - 请再次锁定展示位置以更新",
+        "context": " -> syncmatica.success.modification_accepted",
+        "labels": null,
+        "max_length": null
+    }
+]
