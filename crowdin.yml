@@ -1,3 +1,3 @@
 files:
-  - source: en_us/itemscroller.json
-    translation: zh_cn/itemscroller.json
+  - source: en_us/*.json
+    translation: '%original_file_name%'
