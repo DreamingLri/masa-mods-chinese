@@ -1,0 +1,1114 @@
+[
+    {
+        "identifier": "\"itemscroller.config.generic.name.carpetCtrlQCraftingEnabledOnServer\"",
+        "source_string": "carpetCtrlQCraftingEnabledOnServer",
+        "translation": "CtrlQCrafting | 地毯端CtrlQ启用",
+        "context": " -> itemscroller.config.generic.name.carpetCtrlQCraftingEnabledOnServer",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.name.clientCraftingFixOn1_12\"",
+        "source_string": "clientCraftingFixOn1.12",
+        "translation": "CraftingFixOn1.12 | 1.12客户端修复",
+        "context": " -> itemscroller.config.generic.name.clientCraftingFixOn1_12",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.name.craftingRenderRecipeItems\"",
+        "source_string": "craftingRenderRecipeItems",
+        "translation": "RenderRecipeItems | 配方显示",
+        "context": " -> itemscroller.config.generic.name.craftingRenderRecipeItems",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.name.debugMessages\"",
+        "source_string": "debugMessages",
+        "translation": "DebugMessages | 调试信息开关",
+        "context": " -> itemscroller.config.generic.name.debugMessages",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.name.modMainToggle\"",
+        "source_string": "modMainToggle",
+        "translation": "MainToggle | 主开关",
+        "context": " -> itemscroller.config.generic.name.modMainToggle",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.name.massCraftInhibitMidUpdates\"",
+        "source_string": "massCraftInhibitMidUpdates",
+        "translation": "MassCraft | 批量合成刷新优化",
+        "context": " -> itemscroller.config.generic.name.massCraftInhibitMidUpdates",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.name.massCraftInterval\"",
+        "source_string": "massCraftInterval",
+        "translation": "MassCraft| 批量合成速度",
+        "context": " -> itemscroller.config.generic.name.massCraftInterval",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.name.massCraftIterations\"",
+        "source_string": "massCraftIterations",
+        "translation": "MassCraft | 批量合成尝试",
+        "context": " -> itemscroller.config.generic.name.massCraftIterations",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.name.massCraftSwapsOnly\"",
+        "source_string": "massCraftSwapsOnly",
+        "translation": "MassCraft| 批量合成新方法",
+        "context": " -> itemscroller.config.generic.name.massCraftSwapsOnly",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.name.packetRateLimit\"",
+        "source_string": "packetRateLimit",
+        "translation": "PacketRateLimit | 最大数据流",
+        "context": " -> itemscroller.config.generic.name.packetRateLimit",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.name.craftingRecipesSaveToFile\"",
+        "source_string": "craftingRecipesSaveToFile",
+        "translation": "RecipesSave | 配方文件保存",
+        "context": " -> itemscroller.config.generic.name.craftingRecipesSaveToFile",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.name.craftingRecipesSaveFileIsGlobal\"",
+        "source_string": "craftingRecipesSaveFileIsGlobal",
+        "translation": "RecipesSaveGlobal | 全局配方保存",
+        "context": " -> itemscroller.config.generic.name.craftingRecipesSaveFileIsGlobal",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.name.rateLimitClickPackets\"",
+        "source_string": "rateLimitClickPackets",
+        "translation": "LimitClick | 连点限制",
+        "context": " -> itemscroller.config.generic.name.rateLimitClickPackets",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.name.reverseScrollDirectionSingle\"",
+        "source_string": "reverseScrollDirectionSingle",
+        "translation": "ReverseScroll | 反向单个移动",
+        "context": " -> itemscroller.config.generic.name.reverseScrollDirectionSingle",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.name.reverseScrollDirectionStacks\"",
+        "source_string": "reverseScrollDirectionStacks",
+        "translation": "ReverseScroll| 反向单组移动",
+        "context": " -> itemscroller.config.generic.name.reverseScrollDirectionStacks",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.name.useRecipeCaching\"",
+        "source_string": "useRecipeCaching",
+        "translation": "RecipeCaching | 使用配方缓存",
+        "context": " -> itemscroller.config.generic.name.useRecipeCaching",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.name.useSlotPositionAwareScrollDirection\"",
+        "source_string": "useSlotPositionAwareScrollDirection",
+        "translation": "SlotScrollDirection | 栏位滚动方向",
+        "context": " -> itemscroller.config.generic.name.useSlotPositionAwareScrollDirection",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.name.villagerTradeUseGlobalFavorites\"",
+        "source_string": "villagerTradeUseGlobalFavorites",
+        "translation": "VillagerTradeFavorites | 置顶收藏交易",
+        "context": " -> itemscroller.config.generic.name.villagerTradeUseGlobalFavorites",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.name.villagerTradeListRememberScrollPosition\"",
+        "source_string": "villagerTradeListRememberScrollPosition",
+        "translation": "VillagerTradePosition | 交易书签",
+        "context": " -> itemscroller.config.generic.name.villagerTradeListRememberScrollPosition",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.name.sortAssumeEmptyBoxStacks\"",
+        "source_string": "sortAssumeEmptyBoxStacks",
+        "translation": "SortEmptyBox | 空潜影盒堆叠整理",
+        "context": " -> itemscroller.config.generic.name.sortAssumeEmptyBoxStacks",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.name.sortShulkerBoxesAtEnd\"",
+        "source_string": "sortShulkerBoxesAtEnd",
+        "translation": "SortShulkerBoxesAtEnd | 潜影盒放在最后",
+        "context": " -> itemscroller.config.generic.name.sortShulkerBoxesAtEnd",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.comment.carpetCtrlQCraftingEnabledOnServer\"",
+        "source_string": "Set to true if the server is running the Carpet mod,\nand has the ctrlQCrafting option enabled.\nThis just changes which method Item Scroller uses\nfor the Drop key + Shift + Right click crafting.",
+        "translation": "如果服务器正在运行地毯端则建议开启\n这将改变物品滚轮整组丢弃的使用方式\n变为 丢弃快捷键+Shift+右击",
+        "context": " -> itemscroller.config.generic.comment.carpetCtrlQCraftingEnabledOnServer",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.comment.clientCraftingFixOn1_12\"",
+        "source_string": "Enable updating the crafting recipe output directly on the client side.\nThis fixes the quick/mass crafting and right-click-to-craft-a-stack\nfeatures otherwise being broken in 1.12.",
+        "translation": "在客户端直接更新合成配方输出\n这修正了在1.12中快速/批量制造和右键点击制造所产生的不可使用的问题",
+        "context": " -> itemscroller.config.generic.comment.clientCraftingFixOn1_12",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.comment.craftingRenderRecipeItems\"",
+        "source_string": "If enabled, then the recipe items are also rendered\nin the crafting recipe view.",
+        "translation": "启用后, 配方物品也将呈现于合成配方视图中",
+        "context": " -> itemscroller.config.generic.comment.craftingRenderRecipeItems",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.comment.debugMessages\"",
+        "source_string": "Enables some debug messages in the game console",
+        "translation": "启用后, 将会输出调试信息到游戏控制台中",
+        "context": " -> itemscroller.config.generic.comment.debugMessages",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.comment.modMainToggle\"",
+        "source_string": "Can disable all the functionality of the entire mod",
+        "translation": "开启/关闭所有功能",
+        "context": " -> itemscroller.config.generic.comment.modMainToggle",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.comment.massCraftInhibitMidUpdates\"",
+        "source_string": "Prevent recipe output slot updates in the middle of moving items\nto the crafting grid. This should reduce CPU usage\nbecause of not constantly querying the recipe after every grid change.",
+        "translation": "禁止批量合成时配方输出槽在材料移动到合成GUI的过程中更新. \n这将会减少CPU的占用, 因为游戏会在每次合成配方更改后\n不断地查询配方并显示产物",
+        "context": " -> itemscroller.config.generic.comment.massCraftInhibitMidUpdates",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.comment.massCraftInterval\"",
+        "source_string": "The interval in game ticks the massCraft operation is repeated at",
+        "translation": "每tick中批量合成的次数",
+        "context": " -> itemscroller.config.generic.comment.massCraftInterval",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.comment.massCraftIterations\"",
+        "source_string": "How many massCraft iterations/attempts to do per execution.\nWith unstackable items or a full inventory and \"small recipe\"\nthis will need to be larger, as a shift + click craft to the inventory\nmight only craft 1 or 2 items per operation.",
+        "translation": "设置每次执行多少次批量合成的迭代或者尝试, \n适用于当玩家合成不可堆叠的物品或玩家背包已满这类情况, \n这将需要玩家拥有更大的背包空间, \n因为使用shift单击合成时, \n背包中可能只进行1或2次合成操作",
+        "context": " -> itemscroller.config.generic.comment.massCraftIterations",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.comment.massCraftSwapsOnly\"",
+        "source_string": "Uses a newer method of filling the crafting grid,\nusing only swap slot packets.\n\nNote: Due to only using slot swap packets,\nno partial crafts are possible! And also no\nstack splitting will happen, at all.",
+        "translation": "使用新的方法填充配方GUI, \n即只使用slot swap packets(槽位交换包)\n注意: 由于只使用槽位交换包, 不可能有部分的合成! \n而且也不会发生整组物品拆开的现象",
+        "context": " -> itemscroller.config.generic.comment.massCraftSwapsOnly",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.comment.packetRateLimit\"",
+        "source_string": "The limit of sent emulated slot click packets per game tick,\nif 'rateLimitClickPackets' is enabled",
+        "translation": "当 §6[连点限制]§f 开启后每个tick发送的最大模拟操作数据包的数量",
+        "context": " -> itemscroller.config.generic.comment.packetRateLimit",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.comment.craftingRecipesSaveToFile\"",
+        "source_string": "If enabled, then the crafting features recipes are saved to a file\ninside minecraft/itemscroller/recipes_worldorservername.nbt.\nThis makes the recipes persistent across game restarts.",
+        "translation": "启用后, 合成配方将保存到文件\n\"Minecraft/itemscroller/recipes_worldorservername.nbt\"\n中. 这可以使得合成配方在游戏重启后能保持不变",
+        "context": " -> itemscroller.config.generic.comment.craftingRecipesSaveToFile",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.comment.craftingRecipesSaveFileIsGlobal\"",
+        "source_string": "If true, then the recipe file is global, instead\n of being saved per-world or server",
+        "translation": "启用后, 将会使配方文件全局化, 而不是对每个世界或服务器单独保存",
+        "context": " -> itemscroller.config.generic.comment.craftingRecipesSaveFileIsGlobal",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.comment.rateLimitClickPackets\"",
+        "source_string": "This is meant for compatibility with Spigot servers and similar,\nwhich apply rate limits to packets from the client.\nThis queues up the emulated slot click packets and sends\nthem rate limited over time. The limit per game tick can be set in 'packetRateLimit´.",
+        "translation": "为了与Spigot和类似服务器兼容, \n发送的数据包发送速率进行限制. \n这将模拟正常操作的数据包排队, \n并随着时间的推移以一定速率发送数据包. \n每个tick的限制可以在 §6[最大数据流]§f 中设置",
+        "context": " -> itemscroller.config.generic.comment.rateLimitClickPackets",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.comment.reverseScrollDirectionSingle\"",
+        "source_string": "Reverse the scrolling direction for single item mode.",
+        "translation": "反转滚动方向为单个物品移动模式",
+        "context": " -> itemscroller.config.generic.comment.reverseScrollDirectionSingle",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.comment.reverseScrollDirectionStacks\"",
+        "source_string": "Reverse the scrolling direction for full stacks mode.",
+        "translation": "反转滚动方向为单组物品移动模式",
+        "context": " -> itemscroller.config.generic.comment.reverseScrollDirectionStacks",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.comment.useRecipeCaching\"",
+        "source_string": "Enables caching the last used recipe in the crafting\nrecipe output item fetching code. This can help a lot\nwith lowering CPU usage when mass crafting stuff.",
+        "translation": "在合成配方操作获取输出项参数时, \n传递缓存中最后使用的配方参数. \n当大量合成物品时, 这可以大大降低CPU使用率",
+        "context": " -> itemscroller.config.generic.comment.useRecipeCaching",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.comment.useSlotPositionAwareScrollDirection\"",
+        "source_string": "When enabled, the item movement direction depends\non the slots' y-position on screen. Might be derpy with more\ncomplex inventories, use with caution!",
+        "translation": "启用后, 物品的移动方向将取决于屏幕上栏位的y轴位置. \n在更复杂的物品栏中可能会出现问题, 谨慎使用! ",
+        "context": " -> itemscroller.config.generic.comment.useSlotPositionAwareScrollDirection",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.comment.villagerTradeUseGlobalFavorites\"",
+        "source_string": "Whether or not global (per-item-type) villager trade\nfavorites should be used.",
+        "translation": "启用后, 收藏的交易项目将会被置顶",
+        "context": " -> itemscroller.config.generic.comment.villagerTradeUseGlobalFavorites",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.comment.villagerTradeListRememberScrollPosition\"",
+        "source_string": "Remember and restore the last scroll position in the\ntrade list when re-opening the GUI",
+        "translation": "启用后, 退出村民交易GUI将不会重置滚动条",
+        "context": " -> itemscroller.config.generic.comment.villagerTradeListRememberScrollPosition",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.comment.sortAssumeEmptyBoxStacks\"",
+        "source_string": "Assume that empty boxes are stacking items\nwhen sorting the inventory.\nThis is useful if you installed mods to stack\nshulker boxes on remote server.\nThis will send an extra packet to ensure the\ninventory is synced.",
+        "translation": "整理物品栏时假设空潜影盒可以堆叠. \n当你在远程服务器启用此特性时会很有用. \n这会多发送一个网络包来确保服务器同步",
+        "context": " -> itemscroller.config.generic.comment.sortAssumeEmptyBoxStacks",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.generic.comment.sortShulkerBoxesAtEnd\"",
+        "source_string": "Sort shulker boxes at the end of the inventory\nwhen sorting the inventory.",
+        "translation": "整理物品栏时将潜影盒放在最后",
+        "context": " -> itemscroller.config.generic.comment.sortShulkerBoxesAtEnd",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.toggles.name.enableCraftingFeatures\"",
+        "source_string": "enableCraftingFeatures",
+        "translation": "CraftingFeatures | 启用配方视图",
+        "context": " -> itemscroller.config.toggles.name.enableCraftingFeatures",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.toggles.name.enableDropkeyDropMatching\"",
+        "source_string": "enableDropkeyDropMatching",
+        "translation": "DropkeyDropMatching | 全部丢弃",
+        "context": " -> itemscroller.config.toggles.name.enableDropkeyDropMatching",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.toggles.name.enableRightClickCraftingOneStack\"",
+        "source_string": "enableRightClickCraftingOneStack",
+        "translation": "RightClickCraftingOneStack | 右键合成",
+        "context": " -> itemscroller.config.toggles.name.enableRightClickCraftingOneStack",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.toggles.name.enableScrollingEverything\"",
+        "source_string": "enableScrollingEverything",
+        "translation": "ScrollingEverything | 滚动所有",
+        "context": " -> itemscroller.config.toggles.name.enableScrollingEverything",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.toggles.name.enableScrollingMatchingStacks\"",
+        "source_string": "enableScrollingMatchingStacks",
+        "translation": "ScrollingMatchingStacks | 滚动相同",
+        "context": " -> itemscroller.config.toggles.name.enableScrollingMatchingStacks",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.toggles.name.enableScrollingSingle\"",
+        "source_string": "enableScrollingSingle",
+        "translation": "ScrollingSingle | 滚动物品",
+        "context": " -> itemscroller.config.toggles.name.enableScrollingSingle",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.toggles.name.enableScrollingStacks\"",
+        "source_string": "enableScrollingStacks",
+        "translation": "ScrollingStacks | 滚动一份",
+        "context": " -> itemscroller.config.toggles.name.enableScrollingStacks",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.toggles.name.enableScrollingStacksFallback\"",
+        "source_string": "enableScrollingStacksFallback",
+        "translation": "ScrollingStacksFallback | 回放滚动模式",
+        "context": " -> itemscroller.config.toggles.name.enableScrollingStacksFallback",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.toggles.name.enableScrollingVillager\"",
+        "source_string": "enableScrollingVillager",
+        "translation": "ScrollingVillager | 滚动交易",
+        "context": " -> itemscroller.config.toggles.name.enableScrollingVillager",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.toggles.name.enableShiftDropItems\"",
+        "source_string": "enableShiftDropItems",
+        "translation": "ShiftDropItems | shift丢弃物品",
+        "context": " -> itemscroller.config.toggles.name.enableShiftDropItems",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.toggles.name.enableShiftPlaceItems\"",
+        "source_string": "enableShiftPlaceItems",
+        "translation": "ShiftPlaceItems | shift移动物品",
+        "context": " -> itemscroller.config.toggles.name.enableShiftPlaceItems",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.toggles.name.enableVillagerTradeFeatures\"",
+        "source_string": "enableVillagerTradeFeatures",
+        "translation": "VillagerTradeFeatures | 交易优化",
+        "context": " -> itemscroller.config.toggles.name.enableVillagerTradeFeatures",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.toggles.comment.enableCraftingFeatures\"",
+        "source_string": "Enables scrolling items to and from crafting grids,\nwith a built-in 18 recipe memory.\nHold down the Recipe key to see the stored recipes and\nto change the selection. While holding the Recipe key,\nyou can either scroll or press a number key to change the selection.\nA recipe is stored to the currently selected \"recipe slot\"\n by clicking pick block over a configured crafting output slot.\nThe supported crafting grids must be added to the scrollableCraftingGrids list.",
+        "translation": "开启内置共8页每页18种配方的存储, 使得物品可以放置到合成表. \n按住 §6[配方视图]§f 查看配方列表, 并可以通过滑动滚轮或数字键选择配方, 点击配方可以在工作台完成合成. \n在放置配方达到待命状态(不取出合成产物)时, 按下 §6[储存配方]§f 就可以在选定的位置进行配方储存(旧配方将被覆盖)",
+        "context": " -> itemscroller.config.toggles.comment.enableCraftingFeatures",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.toggles.comment.enableDropkeyDropMatching\"",
+        "source_string": "Enables dropping all matching items from the same\ninventory with the hotkey",
+        "translation": "按下 §6[全部丢弃]§f 快捷键后从同一库存内丢弃所有匹配的物品",
+        "context": " -> itemscroller.config.toggles.comment.enableDropkeyDropMatching",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.toggles.comment.enableRightClickCraftingOneStack\"",
+        "source_string": "Enables crafting up to one full stack when right clicking on\na slot that has been configured as a crafting output slot.",
+        "translation": "右键点击储存的配方后将直接合成一个物品",
+        "context": " -> itemscroller.config.toggles.comment.enableRightClickCraftingOneStack",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.toggles.comment.enableScrollingEverything\"",
+        "source_string": "Enables scroll moving all items at once while\nholding the modifierMoveEverything keybind",
+        "translation": "按住 §6[滚动所有]§f 快捷键时, 允许滑动滑轮来移动所有物品",
+        "context": " -> itemscroller.config.toggles.comment.enableScrollingEverything",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.toggles.comment.enableScrollingMatchingStacks\"",
+        "source_string": "Enables scroll moving all matching stacks at once\nwhile holding the modifierMoveMatching keybind",
+        "translation": "按住 §6[滚动相同]§f 快捷键时, 允许滑动滑轮来移动所有匹配的物品",
+        "context": " -> itemscroller.config.toggles.comment.enableScrollingMatchingStacks",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.toggles.comment.enableScrollingSingle\"",
+        "source_string": "Enables moving items one item at a time by scrolling over a stack",
+        "translation": "在不按住任何快捷键时, 允许滑动滑轮来移动单个物品",
+        "context": " -> itemscroller.config.toggles.comment.enableScrollingSingle",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.toggles.comment.enableScrollingStacks\"",
+        "source_string": "Enables moving entire stacks at a time by scrolling over a stack",
+        "translation": "按住 §6[滚动一份]§f 快捷键时, 允许滑动滑动来移动整组物品",
+        "context": " -> itemscroller.config.toggles.comment.enableScrollingStacks",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.toggles.comment.enableScrollingStacksFallback\"",
+        "source_string": "Enables a \"fallback\" mode for scrolling entire stacks\n(for example to a vanilla crafting table,\nwhere shift + click doesn't work).",
+        "translation": "将启用\"回放\"的滚动模式. \n(在工作台等位置可能减少发包)",
+        "context": " -> itemscroller.config.toggles.comment.enableScrollingStacksFallback",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.toggles.comment.enableScrollingVillager\"",
+        "source_string": "Enables special handling for the Villager GUIs.\n(Normally you can't shift click items in them.)\nHold shift and scroll up/down over the trade output slot.",
+        "translation": "为交易GUI进行特殊处理, 允许对输出位的物品进行滚动来进行快速交易",
+        "context": " -> itemscroller.config.toggles.comment.enableScrollingVillager",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.toggles.comment.enableShiftDropItems\"",
+        "source_string": "Enables dropping all matching items at once by holding\nshift while clicking to drop a stack",
+        "translation": "允许通过按住 shift 键并单击物品时扔出所有匹配的物品",
+        "context": " -> itemscroller.config.toggles.comment.enableShiftDropItems",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.toggles.comment.enableShiftPlaceItems\"",
+        "source_string": "Enables moving all matching stacks at once by holding\nshift while placing items to an empty slot",
+        "translation": "允许通过按住 shift 键并将物品放置在空位时移动所有匹配的物品",
+        "context": " -> itemscroller.config.toggles.comment.enableShiftPlaceItems",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.toggles.comment.enableVillagerTradeFeatures\"",
+        "source_string": "Enable trade favoriting and quick trade features for villagers.\nNote: The Shift + scrolling over the output slot is a separate feature\nand not affected by this option.\nThis option enables middle clicking to mark favorite trades,\nand right clicking on the trade list to fully trade that one trade.",
+        "translation": "为村民启用交易收藏和快速交易功能. \n注意: §6[滚动交易]§f 是一个单独的功能, 不受此选项的影响. \n此选项允许通过单击鼠标中键来标记最喜欢的交易, \n并开启在交易列表上右键单击物品购空物品的功能",
+        "context": " -> itemscroller.config.toggles.comment.enableVillagerTradeFeatures",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.name.openConfigGui\"",
+        "source_string": "openConfigGui",
+        "translation": "OpenConfigGui | 打开配置界面",
+        "context": " -> itemscroller.config.hotkeys.name.openConfigGui",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.name.craftEverything\"",
+        "source_string": "craftEverything",
+        "translation": "CraftEverything | 全部合成",
+        "context": " -> itemscroller.config.hotkeys.name.craftEverything",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.name.dropAllMatching\"",
+        "source_string": "dropAllMatching",
+        "translation": "DropAllMatching | 全部丢弃",
+        "context": " -> itemscroller.config.hotkeys.name.dropAllMatching",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.name.massCraft\"",
+        "source_string": "massCraft",
+        "translation": "MassCraft | 全部合成并抛出",
+        "context": " -> itemscroller.config.hotkeys.name.massCraft",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.name.moveCraftResults\"",
+        "source_string": "moveCraftResults",
+        "translation": "MoveCraftResults | 工作台放置",
+        "context": " -> itemscroller.config.hotkeys.name.moveCraftResults",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.name.recipeView\"",
+        "source_string": "recipeView",
+        "translation": "RecipeView | 配方视图",
+        "context": " -> itemscroller.config.hotkeys.name.recipeView",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.name.slotDebug\"",
+        "source_string": "slotDebug",
+        "translation": "SlotDebug | 调试栏",
+        "context": " -> itemscroller.config.hotkeys.name.slotDebug",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.name.storeRecipe\"",
+        "source_string": "storeRecipe",
+        "translation": "StoreRecipe | 储存配方",
+        "context": " -> itemscroller.config.hotkeys.name.storeRecipe",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.name.throwCraftResults\"",
+        "source_string": "throwCraftResults",
+        "translation": "ThrowCraftResults | 合成结果抛出",
+        "context": " -> itemscroller.config.hotkeys.name.throwCraftResults",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.name.toggleModOnOff\"",
+        "source_string": "toggleModOnOff",
+        "translation": "ModOnOff | 主开关",
+        "context": " -> itemscroller.config.hotkeys.name.toggleModOnOff",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.name.villagerTradeFavorites\"",
+        "source_string": "villagerTradeFavorites",
+        "translation": "VillagerTradeFavorites | 最优交易",
+        "context": " -> itemscroller.config.hotkeys.name.villagerTradeFavorites",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.name.keyDragDropLeaveOne\"",
+        "source_string": "keyDragDropLeaveOne",
+        "translation": "DragDropLeaveOne | 丢到就剩一个",
+        "context": " -> itemscroller.config.hotkeys.name.keyDragDropLeaveOne",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.name.keyDragDropSingle\"",
+        "source_string": "keyDragDropSingle",
+        "translation": "DragDropSingle | 就扔一个",
+        "context": " -> itemscroller.config.hotkeys.name.keyDragDropSingle",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.name.keyDragDropStacks\"",
+        "source_string": "keyDragDropStacks",
+        "translation": "DragDropStacks | 扔一份",
+        "context": " -> itemscroller.config.hotkeys.name.keyDragDropStacks",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.name.keyDragMoveLeaveOne\"",
+        "source_string": "keyDragMoveLeaveOne",
+        "translation": "DragMoveLeaveOne | 移到就剩一个",
+        "context": " -> itemscroller.config.hotkeys.name.keyDragMoveLeaveOne",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.name.keyDragMoveMatching\"",
+        "source_string": "keyDragMoveMatching",
+        "translation": "DragMoveMatching | 匹配的全部移动",
+        "context": " -> itemscroller.config.hotkeys.name.keyDragMoveMatching",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.name.keyDragMoveOne\"",
+        "source_string": "keyDragMoveOne",
+        "translation": "DragMoveOne | 就移一个",
+        "context": " -> itemscroller.config.hotkeys.name.keyDragMoveOne",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.name.keyDragMoveStacks\"",
+        "source_string": "keyDragMoveStacks",
+        "translation": "DragMoveStacks | 移一份",
+        "context": " -> itemscroller.config.hotkeys.name.keyDragMoveStacks",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.name.keyMoveEverything\"",
+        "source_string": "keyMoveEverything",
+        "translation": "MoveEverything | 全部移动",
+        "context": " -> itemscroller.config.hotkeys.name.keyMoveEverything",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.name.wsMoveDownLeaveOne\"",
+        "source_string": "wsMoveDownLeaveOne",
+        "translation": "MoveDownLeaveOne | 就剩一个§4S",
+        "context": " -> itemscroller.config.hotkeys.name.wsMoveDownLeaveOne",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.name.wsMoveDownMatching\"",
+        "source_string": "wsMoveDownMatching",
+        "translation": "MoveDownMatching | 全部下移",
+        "context": " -> itemscroller.config.hotkeys.name.wsMoveDownMatching",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.name.wsMoveDownSingle\"",
+        "source_string": "wsMoveDownSingle",
+        "translation": "MoveDownSingle | 就下移一个",
+        "context": " -> itemscroller.config.hotkeys.name.wsMoveDownSingle",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.name.wsMoveDownStacks\"",
+        "source_string": "wsMoveDownStacks",
+        "translation": "MoveDownStacks | 下移一份",
+        "context": " -> itemscroller.config.hotkeys.name.wsMoveDownStacks",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.name.wsMoveUpLeaveOne\"",
+        "source_string": "wsMoveUpLeaveOne",
+        "translation": "MoveUpLeaveOne | 就剩一个§4W",
+        "context": " -> itemscroller.config.hotkeys.name.wsMoveUpLeaveOne",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.name.wsMoveUpMatching\"",
+        "source_string": "wsMoveUpMatching",
+        "translation": "MoveUpMatching | 全部上移",
+        "context": " -> itemscroller.config.hotkeys.name.wsMoveUpMatching",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.name.wsMoveUpSingle\"",
+        "source_string": "wsMoveUpSingle",
+        "translation": "MoveUpSingle | 就上移一个",
+        "context": " -> itemscroller.config.hotkeys.name.wsMoveUpSingle",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.name.wsMoveUpStacks\"",
+        "source_string": "wsMoveUpStacks",
+        "translation": "MoveUpStacks | 上移一份",
+        "context": " -> itemscroller.config.hotkeys.name.wsMoveUpStacks",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.name.modifierMoveEverything\"",
+        "source_string": "modifierMoveEverything",
+        "translation": "MoveEverything | 滚动所有",
+        "context": " -> itemscroller.config.hotkeys.name.modifierMoveEverything",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.name.modifierMoveMatching\"",
+        "source_string": "modifierMoveMatching",
+        "translation": "MoveMatching | 滚动相同",
+        "context": " -> itemscroller.config.hotkeys.name.modifierMoveMatching",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.name.modifierMoveStack\"",
+        "source_string": "modifierMoveStack",
+        "translation": "MoveStack | 滚动一份",
+        "context": " -> itemscroller.config.hotkeys.name.modifierMoveStack",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.name.modifierToggleVillagerGlobalFavorite\"",
+        "source_string": "modifierToggleVillagerGlobalFavorite",
+        "translation": "VillagerGlobalFavorite | 全局交易收藏",
+        "context": " -> itemscroller.config.hotkeys.name.modifierToggleVillagerGlobalFavorite",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.name.sortInventory\"",
+        "source_string": "sortInventory",
+        "translation": "SortInventory | 物品栏整理",
+        "context": " -> itemscroller.config.hotkeys.name.sortInventory",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.comment.openConfigGui\"",
+        "source_string": "Open the in-game config GUI",
+        "translation": "打开游戏内配置界面",
+        "context": " -> itemscroller.config.hotkeys.comment.openConfigGui",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.comment.craftEverything\"",
+        "source_string": "Craft everything possible once with the currently selected recipe",
+        "translation": "用当前选定的配方消耗完所有的材料进行合成",
+        "context": " -> itemscroller.config.hotkeys.comment.craftEverything",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.comment.dropAllMatching\"",
+        "source_string": "Drop all stacks identical to the hovered stack",
+        "translation": "丢弃所有与鼠标指针指向的物品向匹配的物品",
+        "context": " -> itemscroller.config.hotkeys.comment.dropAllMatching",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.comment.massCraft\"",
+        "source_string": "Mass craft and throw out the results with the\ncurrently selected recipe as long as this\nkeybind is held down",
+        "translation": "批量合成当前选择的配方并将产物丢出, \n需要你按住快捷键",
+        "context": " -> itemscroller.config.hotkeys.comment.massCraft",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.comment.moveCraftResults\"",
+        "source_string": "Move all of the currently selected recipe's\noutput items from the player inventory\nto the other inventory",
+        "translation": "将当前选择配方的所有材料全部放置于合成台上",
+        "context": " -> itemscroller.config.hotkeys.comment.moveCraftResults",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.comment.recipeView\"",
+        "source_string": "Show the Item Scroller recipe GUI",
+        "translation": "显示配方GUI",
+        "context": " -> itemscroller.config.hotkeys.comment.recipeView",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.comment.slotDebug\"",
+        "source_string": "Print debug info for the hovered slot or GUI",
+        "translation": "打印鼠标悬停栏位或GUI的调试信息\n(译注: 非调试时无需设置)",
+        "context": " -> itemscroller.config.hotkeys.comment.slotDebug",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.comment.storeRecipe\"",
+        "source_string": "Store a recipe while hovering over a crafting output item",
+        "translation": "当鼠标悬停在合成输出项目上时, 存储当前的合成配方",
+        "context": " -> itemscroller.config.hotkeys.comment.storeRecipe",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.comment.throwCraftResults\"",
+        "source_string": "Throw all of the currently selected recipe's\noutput items to the ground from the player inventory",
+        "translation": "批量丢出当前选择配方中的输出物品",
+        "context": " -> itemscroller.config.hotkeys.comment.throwCraftResults",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.comment.toggleModOnOff\"",
+        "source_string": "Toggle all mod functionality ON/OFF",
+        "translation": "打开/关闭所有mod功能",
+        "context": " -> itemscroller.config.hotkeys.comment.toggleModOnOff",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.comment.villagerTradeFavorites\"",
+        "source_string": "Trade everything possible with all the favorited trades\nof the current villager",
+        "translation": "按下快捷键时将尝试一键买空所有收藏的交易内容",
+        "context": " -> itemscroller.config.hotkeys.comment.villagerTradeFavorites",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.comment.keyDragDropLeaveOne\"",
+        "source_string": "Key to drop all but the last item from each stack dragged over",
+        "translation": "按住快捷键丢弃物品, 被指到的物品仅保留一个",
+        "context": " -> itemscroller.config.hotkeys.comment.keyDragDropLeaveOne",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.comment.keyDragDropSingle\"",
+        "source_string": "Key to drop one item from each stack dragged over",
+        "translation": "按住快捷键丢弃物品, 被指到的物品仅丢弃一个",
+        "context": " -> itemscroller.config.hotkeys.comment.keyDragDropSingle",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.comment.keyDragDropStacks\"",
+        "source_string": "Key to drop the entire stacks dragged over",
+        "translation": "按住快捷键丢弃物品, 被指到的格子全部丢弃",
+        "context": " -> itemscroller.config.hotkeys.comment.keyDragDropStacks",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.comment.keyDragMoveLeaveOne\"",
+        "source_string": "Key to move all but the last item from\nall the stacks dragged over",
+        "translation": "按住快捷键移动物品, 被指到的物品仅保留一个",
+        "context": " -> itemscroller.config.hotkeys.comment.keyDragMoveLeaveOne",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.comment.keyDragMoveMatching\"",
+        "source_string": "Key to move all matching items dragged over",
+        "translation": "按住快捷键移动所有相同物品",
+        "context": " -> itemscroller.config.hotkeys.comment.keyDragMoveMatching",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.comment.keyDragMoveOne\"",
+        "source_string": "Key to move one item from each stack dragged over",
+        "translation": "按住快捷键移动物品, 被指到的物品仅移动一个",
+        "context": " -> itemscroller.config.hotkeys.comment.keyDragMoveOne",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.comment.keyDragMoveStacks\"",
+        "source_string": "Key to move the entire stacks dragged over",
+        "translation": "按住快捷键移动物品, 被指到的格子全部移动",
+        "context": " -> itemscroller.config.hotkeys.comment.keyDragMoveStacks",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.comment.keyMoveEverything\"",
+        "source_string": "Key to move ALL items to the other\ninventory when clicking a stack",
+        "translation": "点击物品时, 将所有物品移到另一个容器内",
+        "context": " -> itemscroller.config.hotkeys.comment.keyMoveEverything",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.comment.wsMoveDownLeaveOne\"",
+        "source_string": "The key to move all but the last item from each stack\n\"down\" in the inventor",
+        "translation": "将库存中除最后一个物品之外的所有物品从每堆物品\"向下\"移动的键",
+        "context": " -> itemscroller.config.hotkeys.comment.wsMoveDownLeaveOne",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.comment.wsMoveDownMatching\"",
+        "source_string": "The key to move all matching items \"down\" in the inventory",
+        "translation": "将库存中所有匹配的物品\"向下\"移动的键",
+        "context": " -> itemscroller.config.hotkeys.comment.wsMoveDownMatching",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.comment.wsMoveDownSingle\"",
+        "source_string": "The key to move single items \"down\" in the inventory",
+        "translation": "在库存中移动单个物品\"向下\"的键",
+        "context": " -> itemscroller.config.hotkeys.comment.wsMoveDownSingle",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.comment.wsMoveDownStacks\"",
+        "source_string": "The key to move stacks \"down\" in the inventory",
+        "translation": "在库存中移动一份物品\"向下\"的键",
+        "context": " -> itemscroller.config.hotkeys.comment.wsMoveDownStacks",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.comment.wsMoveUpLeaveOne\"",
+        "source_string": "The key to move all but the last item from each stack\n\"up\" in the inventory",
+        "translation": "将库存中除最后一个物品之外的所有物品从每堆物品\"向上\"移动的键",
+        "context": " -> itemscroller.config.hotkeys.comment.wsMoveUpLeaveOne",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.comment.wsMoveUpMatching\"",
+        "source_string": "The key to move all matching items \"up\" in the inventory",
+        "translation": "将库存中所有匹配的物品\"向上\"移动的键",
+        "context": " -> itemscroller.config.hotkeys.comment.wsMoveUpMatching",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.comment.wsMoveUpSingle\"",
+        "source_string": "The key to move single items \"up\" in the inventory",
+        "translation": "在库存中移动单个物品\"向上\"的键",
+        "context": " -> itemscroller.config.hotkeys.comment.wsMoveUpSingle",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.comment.wsMoveUpStacks\"",
+        "source_string": "The key to move stacks \"up\" in the inventory",
+        "translation": "在库存中移动一份物品\"向上\"的键",
+        "context": " -> itemscroller.config.hotkeys.comment.wsMoveUpStacks",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.comment.modifierMoveEverything\"",
+        "source_string": "Modifier key to move ALL items to the other\ninventory when scrolling over a stack",
+        "translation": "当在物品上滚动时, 按下此键将会使所有物品移动到另一个库存\n(这个快捷键并没有实际功能, 类似前缀)",
+        "context": " -> itemscroller.config.hotkeys.comment.modifierMoveEverything",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.comment.modifierMoveMatching\"",
+        "source_string": "Modifier key to move all matching items to the other\ninventory when scrolling over a stack",
+        "translation": "当在物品上滚动时, 按下此键将会使所有匹配的物品移动到另一个库存\n(这个快捷键并没有实际功能, 类似前缀)",
+        "context": " -> itemscroller.config.hotkeys.comment.modifierMoveMatching",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.comment.modifierMoveStack\"",
+        "source_string": "Modifier key to move the entire stack to the other\ninventory when scrolling over it",
+        "translation": "当在堆栈上滚动时, 修饰键将整个堆栈移动到另一个库存\n(这个快捷键并没有实际功能, 类似前缀)",
+        "context": " -> itemscroller.config.hotkeys.comment.modifierMoveStack",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.comment.modifierToggleVillagerGlobalFavorite\"",
+        "source_string": "Modifier key to hold while middle clicking a trade,\nto toggle the global favorite state for that trade.\nGlobal favorites are used for villagers that don't\nhave any \"local\"/villager-specific favorites set.",
+        "translation": "按住该快捷键时收藏的交易将进行全局收藏\n全局收藏将会作用于所有村民",
+        "context": " -> itemscroller.config.hotkeys.comment.modifierToggleVillagerGlobalFavorite",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.config.hotkeys.comment.sortInventory\"",
+        "source_string": "Sort the inventory that the cursor is hovering over",
+        "translation": "对鼠标指针所在的物品栏进行整理",
+        "context": " -> itemscroller.config.hotkeys.comment.sortInventory",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.gui.button.config_gui.generic\"",
+        "source_string": "Generic",
+        "translation": "通用",
+        "context": " -> itemscroller.gui.button.config_gui.generic",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.gui.button.config_gui.hotkeys\"",
+        "source_string": "Hotkeys",
+        "translation": "快捷键",
+        "context": " -> itemscroller.gui.button.config_gui.hotkeys",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.gui.button.config_gui.toggles\"",
+        "source_string": "Toggles",
+        "translation": "开关",
+        "context": " -> itemscroller.gui.button.config_gui.toggles",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.gui.label.recipe_page\"",
+        "source_string": "Page %d / %d",
+        "translation": "页 %d / %d",
+        "context": " -> itemscroller.gui.label.recipe_page",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.gui.label.trades\"",
+        "source_string": "Trades",
+        "translation": "交易",
+        "context": " -> itemscroller.gui.label.trades",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.gui.label.trade_uses\"",
+        "source_string": "Trade uses: %d / %d",
+        "translation": "交易使用: %d / %",
+        "context": " -> itemscroller.gui.label.trade_uses",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.gui.title.configs\"",
+        "source_string": "Item Scroller Configs - %s",
+        "translation": "Item Scroller 设置界面 - %s",
+        "context": " -> itemscroller.gui.title.configs",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.message.toggled_mod_off\"",
+        "source_string": "Toggled all Item Scroller functionality §cOFF",
+        "translation": "Item Scroller 功能调整为: §c关闭",
+        "context": " -> itemscroller.message.toggled_mod_off",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "\"itemscroller.message.toggled_mod_on\"",
+        "source_string": "Toggled all Item Scroller functionality §aON",
+        "translation": "Item Scroller 功能调整为: §a开启",
+        "context": " -> itemscroller.message.toggled_mod_on",
+        "labels": null,
+        "max_length": null
+    }
+]
