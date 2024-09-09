@@ -1,7 +1,3 @@
-show_diff.py
-assets/
-masa-mods-chinese.zip
-.conda
-output.txt
-/test
-/get_origin.py
+/output.txt
+/rename.py
+/show_diff.py
