@@ -1,5 +1,5 @@
 # masa-mods-chinese
-一个`masa mods`的汉化资源包，包括`itemscroller` `litematica` `malilib` `minihud` `tweakeroo` `syncmatica` 模组的汉化
+一个`masa mods`的汉化资源包，包括 `itemscroller` `litematica` `malilib` `minihud` `tweakeroo` `syncmatica` 模组的汉化
 
 原作者: 
 
@@ -14,30 +14,29 @@
 
 由于醉梦巅峰不再进行`masa mods`1.21版本之后的汉化，本人进行了原本汉化的重构，以适应 1.21 [Sakura Ryoko](https://github.com/sakura-ryoko) 版本的`masa mods`
 
-如果您想查看醉梦巅峰1.20.1版本的汉化，请点击[这里](https://github.com/DreamingLri/masa-mods-chinese/tree/origin_files)
+如果您想查看醉梦巅峰1.20.1版本的汉化，请点击[这里](https://github.com/DreamingLri/masa-mods-chinese/tree/1.20)
 
 > [!WARNING]  
-> 本汉化包只适配了1.21 [Sakura Ryoko](https://github.com/sakura-ryoko) **最新版本**的`masa mods`，并不能保证此数据包能够正常应用在低于1.21的版本
+> 本汉化包只适配了1.21 [Sakura Ryoko](https://github.com/sakura-ryoko) **最新版本**的`masa mods`，并不能保证此汉化包能够正常应用在低于1.21的mod中
 
 ## 如何使用
 
-从[Release](https://github.com/DreamingLri/masa-mods-chinese/releases)下载最新版本汉化包，之后将汉化包放入`resourcepacks`文件夹中即可使用
-
----
+从[Release](https://github.com/DreamingLri/masa-mods-chinese/releases)下载最新版本汉化包，之后将汉化包放入`resourcepacks`文件夹中即可使用，记得在资源包里面启用这个（
 
 如果您想体验**最新**~~最不稳定~~的汉化更新：
 
 1. 将本项目clone到本地 - `git clone https://github.com/DreamingLri/masa-mods-chinese.git`
 2. pip安装`hjson`包 - `pip install hjson`
 3. 运行`generate.py`文件即可获得资源包 - `python generate.py`
-4. 重命名资源包，运行`rename.py`即可重命名 - `python rename.py`
+4. 运行`rename.py`即可重命名资源包 - `python rename.py`
+
+## Release版本说明
+
+`1.1.x` 为修改翻译错误的小更新
+`1.x.1` 为重构翻译的更新，通常为更换翻译格式
+`x.1.1` 为跟随mc大版本更新的大更新(例如1.20、1.21)
 
 ## 结语
-
-> [!NOTE]
-> 由于 [Sakura Ryoko](https://github.com/sakura-ryoko) 版本的masa mods部分存在config引用错误，有些汉化无法显示(其实英文也没法显示)，出现问题的地方已经使用注释标记在hjson中，需等待 Sakura 修复
->
-> 2023.8.14 Sakura 已merge修改[#51](https://github.com/sakura-ryoko/tweakeroo/pull/51) [#78](https://github.com/sakura-ryoko/litematica/pull/78)，估计不久之后会修复
 
 感谢 [醉梦巅峰](mailto:893136473@qq.com) 和 [新兵Sinbing](https://github.com/Sinbing) 对masa mods汉化的贡献
 
