@@ -1,6 +1,8 @@
 # masa-mods-chinese
 一个`masa mods`的汉化资源包，包括 `itemscroller` `litematica` `malilib` `minihud` `tweakeroo` `syncmatica` `litematica-printer`模组的汉化
 
+[![Crowdin](https://badges.crowdin.net/masa-mod-chinese/localized.svg)](https://crowdin.com)
+
 原作者: 
 
 [醉梦巅峰](mailto:893136473@qq.com) - [B站](https://space.bilibili.com/13205801) 
