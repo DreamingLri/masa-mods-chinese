@@ -8,4 +8,4 @@
 这里是醉梦巅峰1.20.1版汉化的存档地址
 
 > [!NOTE]
-> 这里只是1.20.1版汉化的存档地址，并没有进行重构，1.21重构版汉化在[这里](https://github.com/DreamingLri/masa-mods-chinese/tree/master)
+> 这里只是1.20.1版汉化的存档地址，并没有进行重构，1.21重构版汉化在[这里](https://github.com/DreamingLri/masa-mods-chinese/tree/1.21)
