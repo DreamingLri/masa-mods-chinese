@@ -1,5 +1,5 @@
 # masa-mods-chinese
-一个`masa mods`的汉化资源包，包括 `itemscroller` `litematica` `malilib` `minihud` `tweakeroo` `syncmatica` 模组的汉化
+一个`masa mods`的汉化资源包，包括 `itemscroller` `litematica` `malilib` `minihud` `tweakeroo` `syncmatica` `litematica-printer`模组的汉化
 
 原作者: 
 
@@ -18,6 +18,7 @@
 
 > [!WARNING]  
 > 本汉化包只适配了1.21 [Sakura Ryoko](https://github.com/sakura-ryoko) **最新版本**的`masa mods`，并不能保证此汉化包能够正常应用在低于1.21的mod中
+> 有汉化错误多半是因为您没有更新模组到最新版
 
 ## 如何使用
 
