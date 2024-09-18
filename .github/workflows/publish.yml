@@ -24,7 +24,8 @@ jobs:
       - name: Generate zip file
         run: |
             pip install hjson
-            python3 generate.py
+            python3 generate.py -v old
+            python3 generate.py -v new
 
       - name: Create Release
         id: create_release
@@ -37,7 +38,7 @@ jobs:
           draft: false
           prerelease: false
 
-      - name: Upload mcdr file
+      - name: Upload old version
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -45,4 +46,14 @@ jobs:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./masa-mods-chinese.zip
           asset_name: masa-mods-chinese.zip
+          asset_content_type: application/zip
+
+      - name: Upload new version
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./masa-mods-chinese-new.zip
+          asset_name: masa-mods-chinese-new.zip
           asset_content_type: application/zip

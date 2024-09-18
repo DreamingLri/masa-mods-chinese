@@ -2,10 +2,13 @@ import json
 import os
 import shutil
 import subprocess
+from typing import Optional
 import zipfile
 import hjson
 
-def hjson_to_json():
+version: Optional[str] = None
+
+def hjson_to_json(version: str):
     hjson_list = [
         './masa-mods-chinese/litematica.hjson',
         './masa-mods-chinese/malilib.hjson',
@@ -27,7 +30,12 @@ def hjson_to_json():
     ]
 
     for hjson_file, json_file in zip(hjson_list, output_json_list):
-        hjson_data = hjson.load(open(hjson_file, 'r', encoding='utf-8'))      
+        with open(hjson_file, 'r', encoding='utf-8') as f:
+            hjson_data = hjson.load(f)
+            if version == 'new':
+                for key in hjson_data:
+                    if " | " in hjson_data[key]:
+                        hjson_data[key] = hjson_data[key].split(" | ")[1]
         output_dir = os.path.dirname(json_file)
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)
@@ -56,7 +64,7 @@ def rename_mcmeta():
     with open('pack.mcmeta', 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-def zip_files():
+def zip_files(version: str):
     def zip_files_and_folders(zip_filename, items_to_zip):
         with zipfile.ZipFile(zip_filename, 'w', zipfile.ZIP_DEFLATED) as zipf:
             for item in items_to_zip:
@@ -73,14 +81,29 @@ def zip_files():
         'pack.mcmeta',
         'pack.png',
     ]
-    zip_filename = './masa-mods-chinese.zip'
+    if version == 'new':
+        zip_filename = './masa-mods-chinese-new.zip'
+    else:
+        zip_filename = './masa-mods-chinese.zip'
     zip_files_and_folders(zip_filename, items_to_zip)
 
 def delete_files():
     shutil.rmtree('./assets')
 
-hjson_to_json()
+def parse_args():
+    import argparse
+    parser = argparse.ArgumentParser(description='Generate the MASA mods Chinese translation pack.')
+    parser.add_argument('-v', '--version',
+                        choices=['old', 'new'],
+                        type=str,
+                        required=False,
+                        default='old',
+                        help='The version of the translation pack.')
+    return parser.parse_args()
+
+version = parse_args().version
+hjson_to_json(version)
 rename_mcmeta()
-zip_files()
+zip_files(version)
 delete_files()
 print('Done!')
