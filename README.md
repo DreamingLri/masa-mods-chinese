@@ -27,6 +27,10 @@
 
 从[Release](https://github.com/DreamingLri/masa-mods-chinese/releases)下载最新版本汉化包，之后将汉化包放入`resourcepacks`文件夹中即可使用，记得在资源包里面启用这个（
 
+`masa-mod-chinese.zip`是含有中英文对照的翻译格式
+
+`masa-mod-chinese-new.zip`是只含有中文的翻译格式，非常适合搭配[tweakermore](https://github.com/Fallen-Breath/tweakermore)模组的`applyTweakerMoreOptionLabelGlobally`功能使用
+
 如果您想体验**最新**~~最不稳定~~的汉化更新：
 
 1. 将本项目clone到本地 - `git clone https://github.com/DreamingLri/masa-mods-chinese.git`
