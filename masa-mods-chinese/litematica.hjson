@@ -210,7 +210,7 @@
     "litematica.config.hotkeys.name.toolSelectElements": "ToolSelectElements | 区域选择",
     "litematica.config.hotkeys.name.toolSelectModifierBlock1": "ToolSelect | 主方块选择",
     "litematica.config.hotkeys.name.toolSelectModifierBlock2": "ToolSelect | 副方块选择",
-    "litematica.config.hotkeys.name.unloadCurrentSchematic": "UnloadCurrentSchematic| 卸载当前原理图",
+    "litematica.config.hotkeys.name.unloadCurrentSchematic": "UnloadCurrentSchematic | 卸载当前原理图",
     "litematica.config.generic.comment.easyPlaceProtocolVersion": "要使用的§6[简单放置协议]§f的模式\n\n- 自动: 在单人模式下使用 §6[模式 3]§r , \n在多人模式下默认使用 §6[仅台阶]§r , \n如果服务器装有 Carpet 模组并发送了 'carpet:hello' 数据包, \n将会使用 §6[模式 2]§r\n- 模式 3: 仅支持 Litematica 本身(在单人游戏中)或与 Servux 一起使用.\n- 模式 2: 与装有 Carpet 模组的服务器兼容\n(包括由 skyrising 和 DeadlyMC 开发的 QuickCarpet, \n或者安装了 CarpetExtra 和 FabricCarpet 的服务器. \n此外, 服务器上需要启用 'accurateBlockPlacement' 规则).\n- 仅台阶: 只修复top slabs.兼容Paper servers.\n- 关闭: 不做调整",
     "litematica.config.generic.comment.pasteNbtRestoreBehavior": "是否尝试恢复方块的 NBT 数据，以及使用哪种方法来进行恢复\n\n- 放置 & /data modify: 尝试在玩家附近放置带有 NBT 数据的方块, 然后使用 /data modify 命令将 NBT 数据传输到 /setblock 放置的方块上\n- 放置 & /clone: 尝试在玩家附近放置带有 NBT 数据的方块，然后将其克隆到最终位置\n- /tp & 放置: 尝试将玩家传送到附近，然后直接将带有 NBT 数据的物品放置在正确的位置\n\n请注意，/tp & 放置 方法目前无法正常工作\n推荐使用的方法是 §e放置 & /data modify§r , 但为使其正常工作, 您可能需要将 §6[命令限速]§r 降低到每 tick 1 个命令, 并将 §6[任务间隔]§6 增加到 1-4 ticks 左右\n因此建议仅在粘贴需要保留数据的重要方块时使用该方法, 比如制作仅包含物品栏的结构文件, 然后在粘贴时将替换行为设置为 \"无\"",
     "litematica.config.generic.comment.pasteReplaceBehavior": "在粘贴原理图工具中替换现有方块的模式",
