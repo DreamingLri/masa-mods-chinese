@@ -1,8 +1,10 @@
 #
 # Your Crowdin credentials
 #
-"base_path": "."
-"base_url": "https://api.crowdin.com"
+project_id: "714985"
+api_token_env: CROWDIN_API_KEY
+base_path: "."
+base_url: "https://api.crowdin.com"
 
 #
 # Choose file structure in Crowdin
