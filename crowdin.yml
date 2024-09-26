@@ -1,0 +1,45 @@
+#
+# Your Crowdin credentials
+#
+"base_path": "."
+"base_url": "https://api.crowdin.com"
+
+#
+# Choose file structure in Crowdin
+# e.g. true or false
+#
+"preserve_hierarchy": true
+
+#
+# Files configuration
+#
+files: [
+  {
+    "source": "masa-mods-chinese/en_us/itemscroller.json",
+    "translation": "masa-mods-chinese/%locale%/%original_file_name%",
+  },
+  {
+    "source": "masa-mods-chinese/en_us/tweakeroo.json",
+    "translation": "masa-mods-chinese/%locale%/%original_file_name%",
+  },
+  {
+    "source": "masa-mods-chinese/en_us/minihud.json",
+    "translation": "masa-mods-chinese/%locale%/%original_file_name%",
+  },
+  {
+    "source": "masa-mods-chinese/en_us/malilib.json",
+    "translation": "masa-mods-chinese/%locale%/%original_file_name%",
+  },
+  {
+    "source": "masa-mods-chinese/en_us/litematica.json",
+    "translation": "masa-mods-chinese/%locale%/%original_file_name%",
+  },
+  {
+    "source": "masa-mods-chinese/en_us/syncmatica.json",
+    "translation": "masa-mods-chinese/%locale%/%original_file_name%",
+  },
+    {
+    "source": "masa-mods-chinese/en_us/litematica-printer.json",
+    "translation": "masa-mods-chinese/%locale%/%original_file_name%",
+  }
+]
