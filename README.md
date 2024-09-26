@@ -35,9 +35,8 @@
 如果您想体验**最新**~~最不稳定~~的汉化更新：
 
 1. 将本项目clone到本地 - `git clone https://github.com/DreamingLri/masa-mods-chinese.git`
-2. pip安装`hjson`包 - `pip install hjson`
-3. 运行`generate.py`文件即可获得资源包 - `python generate.py`
-4. 运行`rename.py`即可重命名资源包 - `python rename.py`
+2. 运行`generate.py`文件即可获得资源包 - `python generate.py`
+3. 运行`rename.py`即可重命名资源包 - `python rename.py`
 
 ## Release版本说明
 
@@ -50,5 +49,7 @@
 ## 结语
 
 感谢 [醉梦巅峰](mailto:893136473@qq.com) 和 [新兵Sinbing](https://github.com/Sinbing) 对masa mods汉化的贡献
+
+感谢 [雪鈴 SnowLin](https://github.com/snowlinouo) 对繁体中文的贡献，欢迎各位来下载TA的[汉化资源包](https://modrinth.com/resourcepack/masa-family-bucket-translationpack)
 
 如果您发现任何汉化错误，欢迎提交[issue](https://github.com/DreamingLri/masa-mods-chinese/issues/new)
