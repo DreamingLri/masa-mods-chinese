@@ -1,4 +1,7 @@
 # masa-mods-chinese
+
+简体中文 | [繁體中文](https://github.com/DreamingLri/masa-mods-chinese/blob/1.21/README_tw.md)
+
 一个`masa mods`的汉化资源包，包括 `itemscroller` `litematica` `malilib` `minihud` `tweakeroo` `syncmatica` `litematica-printer`模组的汉化
 
 [![Crowdin](https://badges.crowdin.net/masa-mod-chinese/localized.svg)](https://crowdin.com)
@@ -38,7 +41,7 @@
 2. 运行`generate.py`文件即可获得资源包 - `python generate.py`
 3. 运行`rename.py`即可重命名资源包 - `python rename.py`
 
-## Release版本说明
+## Release 版本说明
 
 `1.1.x` 为修改翻译错误或新增翻译内容的小更新
 
