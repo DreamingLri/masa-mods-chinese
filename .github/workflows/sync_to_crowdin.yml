@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'masa-mods-chinese/en_us/**'
+      - '.crowdin.yml'
 
 jobs:
   synchronize-with-crowdin:
