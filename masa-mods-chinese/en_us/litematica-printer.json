@@ -1,0 +1,34 @@
+{
+    "litematica-printer.config.generic.name.printingInterval": "printingInterval",
+    "litematica-printer.config.generic.name.printingRange": "printingRange",
+    "litematica-printer.config.generic.name.printingMode": "printingMode",
+    "litematica-printer.config.generic.name.printingDebug": "printingDebug",
+    "litematica-printer.config.generic.name.replaceFluidSourceBlocks": "replaceFluidSourceBlocks",
+    "litematica-printer.config.generic.name.stripLogs": "stripLogs",
+    "litematica-printer.config.generic.name.interactBlocks": "interactBlocks",
+
+    "litematica-printer.config.generic.prettyName.printingInterval": "Printing Interval",
+    "litematica-printer.config.generic.prettyName.printingRange": "Printing Range",
+    "litematica-printer.config.generic.prettyName.printingMode": "Printing Mode",
+    "litematica-printer.config.generic.prettyName.printingDebug": "Printing Debug",
+    "litematica-printer.config.generic.prettyName.replaceFluidSourceBlocks": "Replace Fluid Source Blocks",
+    "litematica-printer.config.generic.prettyName.stripLogs": "Strip Logs",
+    "litematica-printer.config.generic.prettyName.interactBlocks": "Interact Blocks",
+
+    "litematica-printer.config.generic.comment.printingInterval": "Printing interval. Lower values mean faster printing speed.\nIf the printer creates \"ghost blocks\" or blocks are facing the wrong way, raise this value.",
+    "litematica-printer.config.generic.comment.printingRange": "Printing block place range\nLower values are recommended for servers.",
+    "litematica-printer.config.generic.comment.printingMode": "Autobuild / print loaded selection.\nBe aware that some servers and anticheat plugins do not allow printing.",
+    "litematica-printer.config.generic.comment.printingDebug": "Enables Debug logging for printing.",
+    "litematica-printer.config.generic.comment.replaceFluidSourceBlocks": "Whether or not fluid source blocks should be replaced by the printer.",
+    "litematica-printer.config.generic.comment.stripLogs": "Whether or not the printer should use normal logs if stripped\nversions are not available and then strip them with an axe.",
+    "litematica-printer.config.generic.comment.interactBlocks": "Whether or not the printer should set block states.",
+
+    "litematica-printer.config.hotkeys.name.print": "print",
+    "litematica-printer.config.hotkeys.name.togglePrintingMode": "togglePrintingMode",
+
+    "litematica-printer.config.hotkeys.prettyName.print": "Print",
+    "litematica-printer.config.hotkeys.prettyName.togglePrintingMode": "Toggle Printing Mode",
+
+    "litematica-printer.config.hotkeys.comment.print": "Prints while pressed",
+    "litematica-printer.config.hotkeys.comment.togglePrintingMode": "Allows quickly toggling on/off Printing mode"
+}
