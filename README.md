@@ -2,7 +2,7 @@
 
 简体中文 | [繁體中文](https://github.com/DreamingLri/masa-mods-chinese/blob/1.21/README_tw.md)
 
-一个`masa mods`的汉化资源包，包括 `itemscroller` `litematica` `malilib` `minihud` `tweakeroo` `syncmatica` `litematica-printer`模组的汉化
+这是一个`masa mods`的汉化资源包，包括 `itemscroller` `litematica` `malilib` `minihud` `tweakeroo` `syncmatica` `litematica-printer`模组的汉化
 
 [![Crowdin](https://badges.crowdin.net/masa-mod-chinese/localized.svg)](https://crowdin.com)
 
