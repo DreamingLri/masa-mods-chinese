@@ -1,0 +1,25 @@
+name: Crowdin Sync Action
+
+on:
+  push:
+    paths:
+      - 'masa-mods-chinese/en_us/**'
+
+jobs:
+  synchronize-with-crowdin:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: crowdin action
+        uses: crowdin/github-action@v2
+        with: 
+            upload_sources: true
+            upload_translations: false
+        env:
+            CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+            CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+        
+    

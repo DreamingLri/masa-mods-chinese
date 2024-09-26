@@ -8,40 +8,38 @@ import hjson
 
 version: Optional[str] = None
 
-def hjson_to_json(version: str):
-    hjson_list = [
-        './masa-mods-chinese/litematica.hjson',
-        './masa-mods-chinese/malilib.hjson',
-        './masa-mods-chinese/minihud.hjson',
-        './masa-mods-chinese/syncmatica.hjson',
-        './masa-mods-chinese/tweakeroo.hjson',
-        './masa-mods-chinese/itemscroller.hjson',
-        './masa-mods-chinese/litematica-printer.hjson',
+def create_resource_pack(version):
+    file_list = [
+        'itemscroller.json',
+        'litematica.json',
+        'malilib.json',
+        'minihud.json',
+        'syncmatica.json',
+        'tweakeroo.json',
+        'litematica-printer.json',
     ]
+    def write_file(language, version):
+        in_file = os.path.join('masa-mods-chinese', language, file)
+        out_file = os.path.join('assets', file.split('.')[0], 'lang', language + '.json')
 
-    output_json_list = [
-        './assets/litematica/lang/zh_cn.json',
-        './assets/malilib/lang/zh_cn.json',
-        './assets/minihud/lang/zh_cn.json',
-        './assets/syncmatica/lang/zh_cn.json',
-        './assets/tweakeroo/lang/zh_cn.json',
-        './assets/itemscroller/lang/zh_cn.json',
-        './assets/litematica-printer/lang/zh_cn.json',
-    ]
-
-    for hjson_file, json_file in zip(hjson_list, output_json_list):
-        with open(hjson_file, 'r', encoding='utf-8') as f:
-            hjson_data = hjson.load(f)
+        with open(in_file, 'r', encoding='utf-8') as f:
+            in_file = json.load(f)
             if version == 'new':
-                for key in hjson_data:
-                    if " | " in hjson_data[key]:
-                        hjson_data[key] = hjson_data[key].split(" | ")[1]
-        output_dir = os.path.dirname(json_file)
+                for key in in_file:
+                    if " | " in in_file[key]:
+                        in_file[key] = in_file[key].split(" | ")[1]
+        output_dir = os.path.dirname(out_file)
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)
-        output_file = open(json_file, 'w', encoding='utf-8')
-        output_file.write(json.dumps(hjson_data, ensure_ascii=False, indent=4))
+        output_file = open(out_file, 'w', encoding='utf-8')
+        output_file.write(json.dumps(in_file, ensure_ascii=False, indent=4))
         output_file.close()
+
+    for file in file_list:
+        write_file('zh_cn', version)
+        write_file('zh_tw', version)
+        
+        
 
 def rename_mcmeta():
     def get_git_tags():
@@ -102,8 +100,10 @@ def parse_args():
     return parser.parse_args()
 
 version = parse_args().version
-hjson_to_json(version)
+create_resource_pack(version)
 rename_mcmeta()
 zip_files(version)
 delete_files()
 print('Done!')
+
+
