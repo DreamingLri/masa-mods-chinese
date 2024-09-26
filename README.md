@@ -50,6 +50,6 @@
 
 感谢 [醉梦巅峰](mailto:893136473@qq.com) 和 [新兵Sinbing](https://github.com/Sinbing) 对masa mods汉化的贡献
 
-感谢 [雪鈴 SnowLin](https://github.com/snowlinouo) 对繁体中文的贡献，欢迎各位来下载TA的[汉化资源包](https://modrinth.com/resourcepack/masa-family-bucket-translationpack)
+感谢 [雪鈴 SnowLin](https://github.com/snowlinouo) 对繁体中文汉化的贡献，欢迎各位来下载TA的[汉化资源包](https://modrinth.com/resourcepack/masa-family-bucket-translationpack)
 
 如果您发现任何汉化错误，欢迎提交[issue](https://github.com/DreamingLri/masa-mods-chinese/issues/new)
