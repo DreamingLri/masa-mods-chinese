@@ -14,8 +14,8 @@ files = {
 for name, url in files.items():
     r = requests.get(url)
     r.raise_for_status()
-    os.path.join('masa-mods-chinese', 'en_us', name + '.json')
-    with open(f'./masa-mods-chinese/en_us/{name}.json', 'w', encoding='utf-8') as f:
+    path = os.path.join('masa-mods-chinese', 'en_us', name + '.json')
+    with open(path, 'w', encoding='utf-8') as f:
         f.write(r.content.decode('utf-8'))
 
 print('Done!')
