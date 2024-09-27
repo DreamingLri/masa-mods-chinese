@@ -316,7 +316,7 @@
     "litematica.config.info_overlays.comment.blockInfoOverlayAlignment": "方块提示弹窗的显示位置",
     "litematica.config.info_overlays.comment.infoHudAlignment": "信息 HUD 的显示位置\n包括材料列表、原理图验证等界面",
     "litematica.config.info_overlays.comment.toolHudAlignment": "当你手持 [投影操作工具]（默认是木棍）时，投影操作 HUD 的位置 ",
-    "litematica.config.info_overlays.comment.blockInfoLinesEnabled": "如果开启该功能，MiniHUD样式的方块信息显示将默认位于屏幕右上角",
+    "litematica.config.info_overlays.comment.blockInfoLinesEnabled": "如果开启该功能，MiniHUD 样式的方块信息显示将默认位于屏幕右上角",
     "litematica.config.info_overlays.comment.blockInfoLinesFontScale": "方块信息的字体大小",
     "litematica.config.info_overlays.comment.blockInfoLinesOffsetX": "方块信息相对于屏幕边缘的 X 轴偏移量",
     "litematica.config.info_overlays.comment.blockInfoLinesOffsetY": "方块信息相对于屏幕边缘的 Y 轴偏移量",
