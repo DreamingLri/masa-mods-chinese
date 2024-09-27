@@ -693,7 +693,7 @@
     "tweakeroo.label.snap_aim_mode.both": "偏航角与俯仰角",
     "tweakeroo.label.snap_aim_mode.pitch": "俯仰角",
     "tweakeroo.label.snap_aim_mode.yaw": "偏航角",
-    "tweakeroo.message.death_coordinates": "§6你死亡了§r @ [§b%d，%d，%d§r] 在 §a%s",
+    "tweakeroo.message.death_coordinates": "§6你死亡了§r @ [§b%d, %d, %d§r] 在 §a%s",
     "tweakeroo.message.focusing_game": "§6聚焦§f 游戏（获取光标）",
     "tweakeroo.message.potion_effects_running_out": "§6警告：%s 种药水效果将于 %s 秒后消失！！§r",
     "tweakeroo.message.repair_mode.swapped_repairable_item_to_slot": "将可修复的物品移至第 %s 格中",
