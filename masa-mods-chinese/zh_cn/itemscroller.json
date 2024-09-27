@@ -1,12 +1,25 @@
 {
-	"itemscroller.gui.button.config_gui.generic": "通用",
-	"itemscroller.gui.button.config_gui.hotkeys": "快捷键",
-	"itemscroller.gui.button.config_gui.toggles": "开关",
-	"itemscroller.gui.label.recipe_page": "页 %d / %d",
-	"itemscroller.gui.label.trades": "交易",
-	"itemscroller.gui.label.trade_uses": "交易使用: %d / %",
-	"itemscroller.message.toggled_mod_off": "Item Scroller功能调整为： §c关闭",
-	"itemscroller.message.toggled_mod_on": "tem Scroller功能调整为： §a开启",
+	"carpetCtrlQCraftingEnabledOnServer": "carpetCtrlQCrafting | 地毯端CtrlQ启用",
+	"Set to true if the server is running the Carpet mod,\nand has the ctrlQCrafting option enabled.\nThis just changes which method Item Scroller uses\nfor the Drop key + Shift + Right click crafting.": "如果服务器安装有 Carpet Mod 则建议开启\n这将改变物品滚轮整组丢弃的使用方式\n变为 丢弃快捷键 + Shift + 右击",
+	"clientCraftingFixOn1.12": "clientCrafting | 1.12 客户端修复",
+	"Enable updating the crafting recipe output directly on the client side.\nThis fixes the quick/mass crafting and right-click-to-craft-a-stack\nfeatures othrwise being broken in 1.12.": "在客户端直接更新制作配方输出\n这修正了在1.12中快速/批量制造和右键点击制造所产生的不可使用的问题。",
+	"craftingRenderRecipeItems": "craftingRenderRecipeItems | 配方显示",
+	"If enabled, then the recipe items are also rendered\nin the crafting recipe view.": "启用后，配方物品也将呈现于合成配方视图中",
+	"mainToggle": "mainToggle | 主开关",
+	"Toggle all functionality ON/OFF": "开启/关闭所有功能，\n§4似乎是个摆设——ZMDF§r",
+
+	"massCraft": "massCraft | 全部合成抛出",
+	"Mass craft and throw out the results with the\ncurrently selected recipe as long as this\nkeybind is held down": "批量制作当前选择的配方物品并将它们丢出，\n只要你按住快捷键\n（§6做一个快乐的人体喷泉——ZMDF§r）",
+	"massCraftInhibitMidUpdates": "massCraft | 批量合成刷新优化",
+	"Prevent recipe output slot updates in the middle of moving items\nto the crafting grid. This should reduce CPU usage\nbecause of not constantly querying the recipe after every grid change.": "禁止批量合成时配方输出槽在材料移动到合成GUI的过程中更新。\n这将会减少CPU的占用，因为游戏会在每次合成配方更改后\n不断地查询配方并显示产物。",
+	"massCraftInterval": "massCraft | 批量合成速度",
+	"The interval in game ticks the massCraft operation is repeated at": "每tick中批量合成的次数",
+	"massCraftIterations": "massCraft | 批量合成尝试",
+	"How many massCraft iterations/attempts to do per execution.\nWith unstackable items or a full inventory and \"small recipe\"\nthis will need to be larger, as a shift + click craft to the inventory\nmight only craft 1 or 2 items per operation.": "设置每次执行多少次批量合成的迭代或者尝试，\n当玩家合成不可堆叠的物品时或背包已经满了的时候这类情况，\n这将需要玩家拥有更大的背包空间，\n因为使用shift单击合成时，\n背包中可能只进行1或2次合成操作。",
+	"massCraftSwapsOnly": "massCraft | 批量合成新方法",
+	"Uses a newer method of filling the crafting grid,\nusing only swap slot packets.\n\nNote: Due to only using slot swap packets,\nno partial crafts are possible! And also no\nstack splitting will happen, at all.": "使用新的方法填充配方GUI，\n只使用slot swap packets（槽位交换包)\n注意:由于只使用槽位交换包,不可能有部分的合成!\n而且也不会发生整组物品拆开的现象。",
+	
+
 	"enableCraftingFeatures": "Crafting | 制作特性",
 	"Enables scrolling items to and from crafting grids,\nwith a built-in 18 recipe memory.\nHold down the Recipe key to see the stored recipes and\nto change the selection. While holding the Recipe key,\nyou can either scroll or press a number key to change the selection.\nA recipe is stored to the currently selected \"recipe slot\"\n by clicking pick block over a configured crafting output slot.\nThe supported crafting grids must be added to the scrollableCraftingGrids list.": "开启内置共8页每页18种配方的存储，使得物品可以放置到合成表\n按住Recipe（配方）的快捷键查看配方列表，您可以滑动滚轮或使用数字键选择配方\n点击配方可以在工作台完成合成，在放置配方达到待命状态时（不取出合成产物）\n按下设定的storeRecipe（储存配方）快捷键就可以在选定的列表格内进行配方储存（自动覆写）。",
 	"enableDropkeyDropMatching": "Dropkey | 批量丢弃",
@@ -31,22 +44,25 @@
 	"Enables moving all matching stacks at once by holding\nshift while placing items to an empty slot": "在将物品放置到一个空槽时，通过按住shift，\n可以一次移动所有匹配的物品",
 	"enableVillagerTradeList": "Villager | 村民交易列表",
 	"Render a 1.14-style trade list in villager GUIs": "在村民gui中呈现一个1.14风格的交易列表\n（这不是1.16吗？？？？？？）",
-	"carpetCtrlQCraftingEnabledOnServer": "carpetCtrlQCrafting | 地毯端CtrlQ启用",
-	"Set to true if the server is running the Carpet mod,\nand has the ctrlQCrafting option enabled.\nThis just changes which method Item Scroller uses\nfor the Drop key + Shift + Right click crafting.": "如果服务器正在运行地毯端则设置为开启，\n这将改变物品滚轮整组丢弃的使用方式\n变为丢弃+Shift+右击丢弃整组",
-	"clientCraftingFixOn1.12": "clientCrafting | 1.12客户端修复",
-	"Enable updating the crafting recipe output directly on the client side.\nThis fixes the quick/mass crafting and right-click-to-craft-a-stack\nfeatures othrwise being broken in 1.12.": "在客户端直接更新制作配方输出\n这修正了在1.12中快速/批量制造和右键点击制造所产生的不可使用的问题。",
-	"craftingRenderRecipeItems": "craftingRenderRecipeItems | 配方显示",
-	"If enabled, then the recipe items are also rendered\nin the crafting recipe view.": "如果启用，那么配方物品也会呈现在制作配方视图中。",
+	"packetRateLimit": "packetRateLimit | 最大数据流",
+	"The limit of sent emulated slot click packets per game tick,\nif 'rateLimitClickPackets' is enabled": "当§6[连点限制]§f开启后限制每个tick发送的最大模拟操作数据包的数量",
 	"craftingRecipesSaveToFile": "craftingRecipes | 配方文件保存",
 	"If enabled, then the crafting features recipes are saved to a file\ninside minecraft/itemscroller/recipes_worldorservername.nbt.\nThis makes the recipes persistent across game restarts.": "如果启用，那么制作配方将保存到\nminecraft/itemscroller/recipes_worldorservername.nbt\n内的一个文件中。这使得配方在游戏重启时能保持不变",
 	"craftingRecipesSaveFileIsGlobal": "craftingRecipesSave | 全局配方保存",
 	"If true, then the recipe file is global, instead\n of being saved per-world or server": "如果为真，则配方文件是全局的，而不是每个世界或每个服务器单独保存的",
+	"rateLimitClickPackets": "rateLimitClick | 连点限制",
+	"This is meant for compatibility with Spigot servers and similar,\nwhich apply rate limits to packets from the client.\nThis queues up the emulated slot click packets and sends\nthem rate limited over time. The limit per game tick can be set in 'packetRateLimit´.": "这是为了与Spigot服务器和类似服务器兼容，\n对来自客户端的数据包发送速率进行限制。\n这将模拟操作的数据包排队，\n并随着时间的推移向它们发送速率受限的数据包。\n每个tick的限制可以在§6[最大数据流]§f中设置",
 	"reverseScrollDirectionSingle": "reverseScrollDirection | 反向单个移动",
 	"Reverse the scrolling direction for single item mode.": "反转滚动方向为单个物品移动模式",
 	"reverseScrollDirectionStacks": "reverseScrollDirection | 反向单组移动",
 	"Reverse the scrolling direction for full stacks mode.": "反转滚动方向为单组物品移动模式",
+	"useRecipeCaching": "RecipeCaching | 使用配方缓存",
+	"Enables caching the last used recipe in the crafting\nrecipe output item fetching code. This can help a lot\nwith lowering CPU usage when mass crafting stuff.": "在合成配方操作获取输出项时的参数中，\n传递缓存中最后使用的配方参数。\n当大量制作物品时，这可以大大降低CPU使用率。",
 	"useSlotPositionAwareScrollDirection": "useSlotPositionAware | 栏位滚动方向",
 	"When enabled, the item movement direction depends\non the slots' y-position on screen. Might be derpy with more\ncomplex inventories, use with caution!": "当启用时，物品的移动方向取决于屏幕上栏位的y轴位置。使用谨慎!",
+	
+
+
 	"villagerTradeListRememberPage": "villagerTradeList | 交易页面记忆",
 	"Remember and restore the last looked at page/trade when re-opening the GUI": "当重新打开GUI时，记住并恢复最后看到的页面/交易",
 	"openConfigGui": "openConfigGui | 打开配置界面",
@@ -55,10 +71,8 @@
 	"Craft everything possible once with the currently selected recipe": "用当前选定的配方消耗完所有的材料",
 	"dropAllMatching": "dropAll | 全部丢弃",
 	"Drop all stacks identical to the hovered stack": "丢弃所有鼠标指针指向的物品",
-	"mainToggle": "mainToggle | 主开关",
-	"Toggle all functionality ON/OFF": "开启/关闭所有功能，\n§4似乎是个摆设——ZMDF§r",
-	"massCraft": "massCraft | 全部合成抛出",
-	"Mass craft and throw out the results with the\ncurrently selected recipe as long as this\nkeybind is held down": "批量制作当前选择的配方物品并将它们丢出，\n只要你按住快捷键\n（§6做一个快乐的人体喷泉——ZMDF§r）",
+
+	
 	"moveCraftResults": "moveCraft | 工作台放置",
 	"Move all of the currently selected recipe's\noutput items from the player inventory\nto the other inventory": "将当前选择的物品配方材料全部放置于合成台。",
 	"moveStackToOffhand": "moveStack | 手持物品",
@@ -109,10 +123,8 @@
 	"Modifier key to move all matching items to the other\ninventory when scrolling over a stack": "当在堆栈上滚动时，修饰键将所有匹配的项目移动到另一个库存\n（这个快捷键并没有实际功能，类似前缀）",
 	"modifierMoveStack": "modifierMove | 移动一份",
 	"Modifier key to move the entire stack to the other\ninventory when scrolling over it": "当在堆栈上滚动时，修饰键将整个堆栈移动到另一个库存\n（这个快捷键并没有实际功能，类似前缀）",
-	"packetRateLimit": "packetRateLimit | 最大数据流",
-	"The limit of sent emulated slot click packets per game tick,\nif 'rateLimitClickPackets' is enabled": "当§6[连点限制]§f开启后限制每个tick发送的最大模拟操作数据包的数量",
-	"rateLimitClickPackets": "rateLimitClick | 连点限制",
-	"This is meant for compatibility with Spigot servers and similar,\nwhich apply rate limits to packets from the client.\nThis queues up the emulated slot click packets and sends\nthem rate limited over time. The limit per game tick can be set in 'packetRateLimit´.": "这是为了与Spigot服务器和类似服务器兼容，\n对来自客户端的数据包发送速率进行限制。\n这将模拟操作的数据包排队，\n并随着时间的推移向它们发送速率受限的数据包。\n每个tick的限制可以在§6[最大数据流]§f中设置",
+	
+
 	"villagerTradeUseGlobalFavorites": "villagerTrade | 交易收藏",
 	"Whether or not global (per-item-type) villager trade\nfavorites should be used.": "该功能开启后，使用§6[交易优化]§f+鼠标中键\n标注的交易项目将会置顶",
 	"villagerTradeListRememberScrollPosition": "villagerTrade | 交易书签",
@@ -128,15 +140,18 @@
 	"toggleModOnOff": "ModOnOff | 主开关",
 	"Toggle all mod functionality ON/OFF": "打开/关闭所有mod功能",
 	"Modifier key to hold while middle clicking a trade,\nto toggle the global favorite state for that trade.\nGlobal favorites are used for villagers that don't\nhave any \"local\"/villager-specific favorites set.": "使用鼠标中键点击交易内容时按住快捷键\n切换该交易为全局最喜欢的状态（§d粉色星§f）\n全局的交易收藏夹只能用于没有任何\n“本地收藏夹（§e黄色星§f）”的村民",
-	"massCraftInhibitMidUpdates": "massCraft | 批量合成刷新优化",
-	"Prevent recipe output slot updates in the middle of moving items\nto the crafting grid. This should reduce CPU usage\nbecause of not constantly querying the recipe after every grid change.": "禁止批量合成时配方输出槽在材料移动到合成GUI的过程中更新。\n这将会减少CPU的占用，因为游戏会在每次合成配方更改后\n不断地查询配方并显示产物。",
-	"massCraftInterval": "massCraft | 批量合成速度",
-	"The interval in game ticks the massCraft operation is repeated at": "每tick中批量合成的次数",
-	"massCraftIterations": "massCraft | 批量合成尝试",
-	"How many massCraft iterations/attempts to do per execution.\nWith unstackable items or a full inventory and \"small recipe\"\nthis will need to be larger, as a shift + click craft to the inventory\nmight only craft 1 or 2 items per operation.": "设置每次执行多少次批量合成的迭代或者尝试，\n当玩家合成不可堆叠的物品时或背包已经满了的时候这类情况，\n这将需要玩家拥有更大的背包空间，\n因为使用shift单击合成时，\n背包中可能只进行1或2次合成操作。",
-	"massCraftSwapsOnly": "massCraft | 批量合成新方法",
-	"Uses a newer method of filling the crafting grid,\nusing only swap slot packets.\n\nNote: Due to only using slot swap packets,\nno partial crafts are possible! And also no\nstack splitting will happen, at all.": "使用新的方法填充配方GUI，\n只使用slot swap packets（槽位交换包)\n注意:由于只使用槽位交换包,不可能有部分的合成!\n而且也不会发生整组物品拆开的现象。",
-	"useRecipeCaching": "massCraft | 使用配方缓存",
-	"Enables caching the last used recipe in the crafting\nrecipe output item fetching code. This can help a lot\nwith lowering CPU usage when mass crafting stuff.": "在合成配方操作获取输出项时的参数中，\n传递缓存中最后使用的配方参数。\n当大量制作物品时，这可以大大降低CPU使用率。",
-	"itemscroller.gui.title.configs": "物品滚轮配置汉化——醉梦巅峰（ZMDF）-2022.01.21"
+
+	
+
+	"itemscroller.gui.button.config_gui.generic": "通用",
+	"itemscroller.gui.button.config_gui.hotkeys": "快捷键",
+	"itemscroller.gui.button.config_gui.toggles": "开关",
+	"itemscroller.gui.label.recipe_page": "页 %d / %d",
+	"itemscroller.gui.label.trades": "交易",
+	"itemscroller.gui.label.trade_uses": "交易使用: %d / %",
+
+	"itemscroller.message.toggled_mod_off": "Item Scroller 功能调整为：§c关闭",
+	"itemscroller.message.toggled_mod_on": "Item Scroller 功能调整为：§a开启",
+
+	"itemscroller.gui.title.configs": "Item Scroller 设置界面"
 }
