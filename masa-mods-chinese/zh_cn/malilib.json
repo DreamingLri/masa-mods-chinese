@@ -38,7 +38,7 @@
     "malilib.gui.button.hover.directory_widget.root": "返回至根目录",
     "malilib.gui.button.hover.directory_widget.up": "回到上级目录",
     "malilib.gui.button.hover.hold_shift_for_info": "§o按住 Shift 显示更多信息§r",
-    "malilib.gui.button.hover.plus_minus_tip": "点击左键增加，点击右键减少\n按住 Alt（5倍）、Shift（10倍）、Ctrl（100倍）时可增大的倍数",
+    "malilib.gui.button.hover.plus_minus_tip": "点击左键增加，点击右键减少\n按住 Alt（5 倍）、Shift（10 倍）、Ctrl（100 倍）时可增大的倍数",
     "malilib.gui.label.block_snap.center": "中心",
     "malilib.gui.label.block_snap.corner": "角落",
     "malilib.gui.label.block_snap.none": "无",

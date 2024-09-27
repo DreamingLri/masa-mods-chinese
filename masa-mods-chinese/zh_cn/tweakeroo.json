@@ -286,7 +286,7 @@
     "tweakeroo.config.disable.comment.disableChunkRendering": "禁用区块渲染，这会导致所有方块不可见。\n恢复渲染需要在禁用此功能后使用 F3 + A 重新渲染世界。\n这可能会让你在大量方块改变时拥有不那么低的帧数",
     "tweakeroo.config.disable.comment.disableClientEntityUpdates": "禁用客户端中除了玩家外所有实体的更新。\n当你需要去处理实体过多环境下的情况时，使用这个可以降低客户端的渲染压力",
     "tweakeroo.config.disable.comment.disableClientLightUpdates": "禁用客户端的所有光照更新",
-    "tweakeroo.config.disable.comment.disableConstantChunkSaving": "除了正常的自动保存外，禁止游戏每 tick 保存 20 个区块",
+    "tweakeroo.config.disable.comment.disableConstantChunkSaving": "除了正常的自动保存外，禁止游戏每 Tick 保存 20 个区块",
     "tweakeroo.config.disable.comment.disableCreativeMenuInfestedBlocks": "从创造搜索清单中移除被虫蚀的石头方块",
     "tweakeroo.config.disable.comment.disableDeadMobRendering": "不渲染死亡的怪物（生命值为 0 的实体），但这并不影响你与尸体交互",
     "tweakeroo.config.disable.comment.disableDeadMobTargeting": "防止锁定生命值处于 0 的实体，开启后你将不会打到已死亡的怪物身上。\n§4注意：该功能不属于原版 + TAS 可实现或公平的功能§f\n§4使用此功能前请询问服务器管理是否允许此功能的使用§f",

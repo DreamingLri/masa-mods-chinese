@@ -10,7 +10,7 @@
     "syncmatica.gui.button.material_gathering_placement": "材料（无实际功能）",
     "syncmatica.gui.title.manage_server_placements": "管理服务器配置 - %s",
     "syncmatica.gui.label.placement_info.file_name": "文件名",
-    "syncmatica.gui.label.placement_info.position": "原点（xyz）",
+    "syncmatica.gui.label.placement_info.position": "原点（XYZ）",
     "syncmatica.gui.label.placement_info.dimension_id": "维度",
     "syncmatica.gui.label.placement_info.owner": "上传者",
     "syncmatica.gui.label.placement_info.last_modified": "最后的修改者",
