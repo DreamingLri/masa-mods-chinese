@@ -33,7 +33,12 @@
 > [!NOTE]
 > `masa-mod-chinese.zip` 是含有中英文對照的翻譯格式
 >
+> ![image](https://github.com/user-attachments/assets/9272e9a0-723b-431b-aeaa-c80a2a372cca)
+>
 > `masa-mod-chinese-new.zip` 是只含有中文的翻譯格式，非常適合搭配 [tweakermore](https://github.com/Fallen-Breath/tweakermore) 模組的 `applyTweakerMoreOptionLabelGlobally` 功能使用
+>
+> ![image](https://github.com/user-attachments/assets/892cd08e-90ce-47a4-8a84-b0f0001cd99d)
+
 
 如果您想體驗**最新**~~最不穩定~~的漢化更新：
 
