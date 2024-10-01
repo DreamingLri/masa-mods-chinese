@@ -768,7 +768,7 @@
     "minihud.info_line.server_tps": "伺服器 TPS: %s%.1f%s MSPT: %s%.1f%s",
     "minihud.info_line.server_tps.est": "伺服器 TPS: %s%.1f%s (MSPT [估計]: %s%.1f%s)",
     "minihud.info_line.server_tps.invalid": "伺服器 TPS: <無可用資料>",
-    "minihud.info_line.servux": "Servux: %s // 協定版本 v%d // 方塊數量: %02d，實體數量: %02d",
+    "minihud.info_line.servux": "Servux: %s // 協定版本 v%d // 方塊數量: %02d, 實體數量: %02d",
     "minihud.info_line.servux.not_connected": "Servux 版本: §c未連接§r",
     "minihud.info_line.servux.entity_sync": "實體同步: cB: %02d, pB: %02d, cE: %02d, pE: %02d",
     "minihud.info_line.servux.structures": "生成結構: sC: %02d, sR: %02d (%s), wS: %s",
