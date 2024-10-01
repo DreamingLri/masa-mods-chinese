@@ -884,7 +884,7 @@
     "litematica.message.warn.schematic_load_non_litematica": "警告：当你直接加载非 Litematica 原理图时，创建的放置将不会是持久的\n此外，如果你需要多次加载原理图文件，那么每次加载时都会发生结构类型转换的卡顿（尤其是大型结构）\n\n因此，建议通过 原理图管理器 菜单导入结构并将其保存为 Litematica 格式，或者使用 MCEdit 或 Litematica 的粘贴模式将原始结构粘贴到一个临时世界中，然后从中创建一个新的 Litematica 结构文件\n建议使用多个子区域来框选建筑",
     "litematica.message.warn.schematic_rebuild_placement_not_selected": "目前未选择目标展示位置。\n[全部替换] 热键仅适用于您单击的放置的当前选定子区域。因此，要仅替换一个子区域中的块，请选择该子区域。\n要替换整个原理图（所有子区域），请选择整个位置而不是其子区域。 \n这些方块也仅在当前「渲染层」设置限制的区域内被替换",
     "litematica.message.warn.schematic_rendering_disabled": "警告：当前禁用了原理图渲染\n查看视觉效果 -> %s，或者热键 -> %s ['%s']",
-    "litematica.message.warn.schematic_verifier.overlay_disabled": "警告：验证程序重叠渲染当前已禁用！ 请参阅信息 -> %s（或者热键 -> %s ['%s']）",
+    "litematica.message.warn.schematic_verifier.overlay_disabled": "警告：验证程序重叠渲染当前已禁用！请参阅信息 -> %s（或者热键 -> %s ['%s']）",
     "litematica.message.warning.invalid_number": "输入无效的数字「%s」",
     "litematica.message.warning.schematic_projects_hidden": "警告：原理图版本控制系统当前处于隐藏状态。\n一般来说，你不应该使用它，除非你真的知道它是如何工作的并改变了一些 Mod 行为。\n如果您想使用它，请启用选项 [通用] -> [不隐藏原理图版本控制系统]",
     "litematica.warning.area_editor.area_rendering_disabled": "注意：区域选择框呈现当前被禁用\n查看视觉效果 -> %s，或者热键 -> %s ['%s']",
