@@ -24,18 +24,16 @@
 > [!WARNING]  
 > 本汉化包只适配了 1.21 [Sakura Ryoko](https://github.com/sakura-ryoko) **最新版本**的 `Masa Mods`，并不能保证此汉化包能够正常应用在低于 1.21 的 Mod 中
 > 
-> 有汉化错误多半是因为您没有更新模组和汉化包到最新版（
+> 有汉化错误多半是因为您没有更新模组和汉化包到最新版(
 
 ## 如何使用
 
-从 [Release](https://github.com/DreamingLri/masa-mods-chinese/releases) 下载最新版本汉化包，之后将汉化包放入 `resourcepacks` 文件夹中即可使用，记得在资源包里面启用这个（
+从 [Release](https://github.com/DreamingLri/masa-mods-chinese/releases) 下载最新版本汉化包，之后将汉化包放入 `resourcepacks` 文件夹中即可使用，记得在资源包里面启用这个(
 
 > [!NOTE]
 > `masa-mod-chinese.zip` 是含有中英文对照的翻译格式
 > 
 > ![image](https://github.com/user-attachments/assets/dbac86a0-3901-4cb0-baaa-abd99d3afad6)
->
-> 
 >
 > `masa-mod-chinese-new.zip` 是只含有中文的翻译格式，非常适合搭配 [tweakermore](https://github.com/Fallen-Breath/tweakermore) 模组的 `applyTweakerMoreOptionLabelGlobally` 功能使用
 > 
@@ -60,6 +58,6 @@
 
 感谢 [醉梦巅峰](mailto:893136473@qq.com) 和 [新兵Sinbing](https://github.com/Sinbing) 对 Masa Mods 汉化的贡献
 
-感谢 [雪鈴 SnowLin](https://github.com/snowlinouo) 对繁体中文汉化的贡献，欢迎各位来下载TA的 [汉化资源包](https://modrinth.com/resourcepack/masa-family-bucket-translationpack)
+感谢 [雪鈴 SnowLin](https://github.com/snowlinouo) 对繁体中文汉化的贡献，欢迎各位来下载TA的 [汉化资源包](https://modrinth.com/resourcepack/masa-mod-translationpack)
 
 如果您发现任何汉化错误，欢迎提交 [Issue](https://github.com/DreamingLri/masa-mods-chinese/issues/new)

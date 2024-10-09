@@ -24,11 +24,11 @@
 > [!WARNING]  
 > 本漢化包只適應了 1.21 [Sakura Ryoko](https://github.com/sakura-ryoko) **最新版本**的 `Masa Mods`，並不能保證此漢化包能夠正常套用在低於 1.21 的 Mod 中
 > 
-> 有漢化錯誤多半是因為您沒有更新模組和漢化包到最新版（
+> 有漢化錯誤多半是因為您沒有更新模組和漢化包到最新版(
 
 ## 如何使用
 
-從 [Release](https://github.com/DreamingLri/masa-mods-chinese/releases) 下載最新版本漢化包，之後將漢化包放入 `resourcepacks` 資料夾中即可使用，記得在資源包裡面啟用這個（
+從 [Release](https://github.com/DreamingLri/masa-mods-chinese/releases) 下載最新版本漢化包，之後將漢化包放入 `resourcepacks` 資料夾中即可使用，記得在資源包裡面啟用這個(
 
 > [!NOTE]
 > `masa-mod-chinese.zip` 是含有中英文對照的翻譯格式
@@ -58,6 +58,6 @@
 
 感謝 [醉夢巔峰](mailto:893136473@qq.com) 和 [新兵Sinbing](https://github.com/Sinbing) 對 Masa Mods 漢化的貢獻
 
-感謝 [雪鈴 SnowLin](https://github.com/snowlinouo) 對繁體中文漢化的貢獻，歡迎各位來下載TA的 [漢化資源包](https://modrinth.com/resourcepack/masa-family-bucket-translationpack)
+感謝 [雪鈴 SnowLin](https://github.com/snowlinouo) 對繁體中文漢化的貢獻，歡迎各位來下載TA的 [漢化資源包](https://modrinth.com/resourcepack/masa-mod-translationpack)
 
 如果您發現任何漢化錯誤，歡迎提交 [Issue](https://github.com/DreamingLri/masa-mods-chinese/issues/new)
