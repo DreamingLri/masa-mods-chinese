@@ -2,7 +2,7 @@
     "malilib.config.name.ignoredKeys": "IgnoredKeys | 忽略按鍵",
     "malilib.config.name.openGuiConfigs": "OpenGuiConfigs | 開啟設定介面",
     "malilib.config.name.realmsCommonConfig": "RealmsCommonConfig | 領域服通用設定",
-    "malilib.config.name.enableActionbarMessages": "顯示動作欄資訊",
+    "malilib.config.name.enableActionbarMessages": "ActionbarMessages | 顯示動作欄資訊",
     "malilib.config.name.debugMessages": "DebugMessages | 除錯資訊",
     "malilib.config.name.inputCancellationDebugging": "InputCancellationDebugging | 按鍵取消除錯資訊",
     "malilib.config.name.keybindDebugging": "KeybindDebugging | 按鍵除錯資訊",
