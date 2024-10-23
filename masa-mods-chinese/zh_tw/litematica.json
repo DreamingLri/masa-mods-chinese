@@ -517,7 +517,7 @@
     "litematica.gui.button.area_editor.create_sub_region": "新增子區域",
     "litematica.gui.button.area_editor.origin_enabled": "手動來源：%s",
     "litematica.gui.button.area_editor.set_box_name": "設定",
-    "litematica.gui.button.area_editor.set_selection_name": "設定",
+    "litematica.gui.button.area_editor.set_selection_name": "確定",
     "litematica.gui.button.area_selection_mode": "區域選擇模式：%s",
     "litematica.gui.button.area_selections.create_directory": "建立目錄",
     "litematica.gui.button.area_selections.create_new_selection": "新選擇",
