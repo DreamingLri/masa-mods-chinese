@@ -56,7 +56,8 @@ def rename_mcmeta():
     with open('pack.mcmeta', 'r', encoding='utf-8-sig') as f:
         data = json.load(f)
 
-    data['pack']['pack_format'] = 34
+    data['pack']['pack_format'] = 42
+    data['pack']['supported_formats'] = [ 34, 42 ]
     data['pack']['description'] = '§e[1.21]MASA全家桶汉化包' + '-' + tag[0]
 
     with open('pack.mcmeta', 'w', encoding='utf-8') as f:
