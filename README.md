@@ -53,4 +53,4 @@
 
 感谢 [雪鈴 SnowLin](https://github.com/snowlinouo) 对繁体中文汉化的贡献，欢迎各位来下载TA的 [汉化资源包](https://modrinth.com/resourcepack/masa-mod-translationpack)
 
-如果您发现任何汉化错误，欢迎提交 [Issue](https://github.com/DreamingLri/masa-mods-chinese/issues/new)
+如果您想提交汉化错误或建议，欢迎提交 [Issue](https://github.com/DreamingLri/masa-mods-chinese/issues/new/choose)
