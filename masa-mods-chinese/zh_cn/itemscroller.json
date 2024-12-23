@@ -82,7 +82,7 @@
     "itemscroller.config.toggles.comment.enableScrollingSingle": "在不按住任何快捷键时，允许滑动滚轮来移动单个物品",
     "itemscroller.config.toggles.comment.enableScrollingStacks": "按住 §6[滚动一组]§f 快捷键时，允许滑动滚轮来移动整组物品",
     "itemscroller.config.toggles.comment.enableScrollingStacksFallback": "启用滚动整组物品的「回退」模式\n（例如在原版工作台中，Shift + 点击无法使用时）",
-    "itemscroller.config.toggles.comment.enableScrollingVillager": "为交易GUI进行特殊处理（通常在这些界面中无法使用 Shift + 点击）\n按住 Shift 并在交易输出槽上滚动来进行操作",
+    "itemscroller.config.toggles.comment.enableScrollingVillager": "为交易 GUI 进行特殊处理（通常在这些界面中无法使用 Shift + 点击）\n按住 Shift 并在交易输出槽上滚动来进行操作",
     "itemscroller.config.toggles.comment.enableShiftDropItems": "允许通过按住 Shift 键并单击物品时扔出所有匹配的物品",
     "itemscroller.config.toggles.comment.enableShiftPlaceItems": "允许通过按住 Shift 键并将物品放置在空位时移动所有匹配的物品",
     "itemscroller.config.toggles.comment.enableVillagerTradeFeatures": "为村民启用交易收藏和快速交易功能。\n注意：§6[滚动交易]§f 是一个单独的功能，不受此选项的影响。\n此选项允许通过单击鼠标中键来标记最喜欢的交易，\n并且可以在交易列表上右键单击来购空该物品",

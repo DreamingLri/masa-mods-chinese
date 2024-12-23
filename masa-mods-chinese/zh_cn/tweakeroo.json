@@ -166,7 +166,7 @@
     "tweakeroo.config.generic.comment.snapAimIndicatorColor": "§6[瞄准辅助指示器]§r 的背景颜色",
     "tweakeroo.config.generic.comment.snapAimMode": "切换瞄准辅助模式：偏航角[← →]或俯仰角[↑ ↓]，或都显示",
     "tweakeroo.config.generic.comment.snapAimOnlyCloseToAngle": "启用该功能后那么视角锁定功能\n将仅在一定阈值内的角度时锁定该角度。\n角度阈值可以在 §6[通用功能] -> [角度阈值（垂直/水平方向）]§f 中设置",
-    "tweakeroo.config.generic.comment.snapAimPitchOvershoot": "是否允许俯仰角度从正常的 +/- 90度 \n扩展到 +/- 180度",
+    "tweakeroo.config.generic.comment.snapAimPitchOvershoot": "是否允许俯仰角度从正常的 +/- 90 度 \n扩展到 +/- 180 度",
     "tweakeroo.config.generic.comment.snapAimPitchStep": "§6[瞄准辅助]§r 俯仰角度步进（单位°）",
     "tweakeroo.config.generic.comment.snapAimThresholdPitch": "当玩家的视角在这个角度阈值内时，\n玩家的视角旋转将被捕获到固定角度",
     "tweakeroo.config.generic.comment.snapAimThresholdYaw": "当玩家的视角在这个角度阈值内时，\n玩家的视角旋转将被捕获到固定角度",
