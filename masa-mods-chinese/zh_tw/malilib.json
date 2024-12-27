@@ -10,7 +10,7 @@
   "malilib.config.debug.comment.debugMessages": "啟用後，除錯等級的日誌會被列印到控制台/日誌中",
   "malilib.config.debug.comment.inputCancellationDebugging": "啟用後，輸入（鍵盤和滑鼠）的取消原因/來源會被列印出來",
   "malilib.config.debug.comment.keybindDebugging": "啟用後，按鍵和按住的鍵會被列印到遊戲控制台（也會顯示在動作欄）",
-  "malilib.config.debug.comment.keybindDebuggingIngame": "啟用後，來自 §6[按鍵綁定除錯]§r 的訊息也會列印到遊戲中的動作欄上。",
+  "malilib.config.debug.comment.keybindDebuggingIngame": "啟用後，來自 §e[按鍵綁定除錯]§r 的訊息也會列印到遊戲中的動作欄上。",
   "malilib.config.debug.comment.mouseScrollDebug": "啟用後，來自滑鼠捲動的除錯值會列印到遊戲控制台/日誌中。",
   "malilib.config.debug.comment.printTranslationKeys": "將所有透過 §eStringUtils.translate()§r 方法翻譯的翻譯鍵列印到日誌中\n\n如果你想透過翻譯覆蓋系統為某個特定的內容加入翻譯，並且不想為此製作翻譯資源包時，可以使用這個功能尋找某些翻譯鍵\n\n§d記得及時關閉這個功能！§r 它可能會很快在日誌中生成大量資訊...",
   "malilib.config.debug.name.configElementDebug": "設定元素除錯",

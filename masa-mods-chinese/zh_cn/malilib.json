@@ -10,7 +10,7 @@
   "malilib.config.debug.comment.debugMessages": "启用后，调试等级的日志会被打印到控制台/日志中",
   "malilib.config.debug.comment.inputCancellationDebugging": "启用后，输入（键盘和鼠标）的取消原因/来源会被打印出来",
   "malilib.config.debug.comment.keybindDebugging": "启用后，按键和按住的键会被打印到游戏控制台（也会显示在动作栏）",
-  "malilib.config.debug.comment.keybindDebuggingIngame": "启用后，来自 §6[按键绑定调试]§r 的消息也会打印到游戏中的动作栏上。",
+  "malilib.config.debug.comment.keybindDebuggingIngame": "启用后，来自 §e[按键绑定调试]§r 的消息也会打印到游戏中的动作栏上。",
   "malilib.config.debug.comment.mouseScrollDebug": "启用后，来自鼠标滚动的调试值会打印到游戏控制台/日志中。",
   "malilib.config.debug.comment.printTranslationKeys": "将所有通过 §eStringUtils.translate()§r 方法翻译的翻译键打印到日志中\n\n如果你想通过翻译覆盖系统为某个特定的内容添加翻译，并且不想为此制作翻译资源包时，可以使用这个功能查找某些翻译键\n\n§d记得及时关闭这个功能！§r 它可能会很快在日志中生成大量信息...",
   "malilib.config.debug.name.configElementDebug": "配置元素调试",
