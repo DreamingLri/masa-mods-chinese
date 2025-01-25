@@ -404,7 +404,7 @@
     "litematica.config.hotkeys.comment.pickBlockFirst": "A key to pick block the first\nschematic block ray traced to",
     "litematica.config.hotkeys.comment.pickBlockLast": "A key to pick block the last schematic block\nray traced to, before the first (possible) client world\nblock ray traced to. Basically this would get\nyou the block you could place against an existing block.",
     "litematica.config.hotkeys.comment.pickBlockToggle": "A hotkey to toggle the pick block toggle option in the\nGeneric configs. This is provided as a quick way to enable\nor disable the pick block keys, if they interfere with something.",
-    "litematica.config.hotkeys.comment.renderInfoOverlay": "The key that enables rendering the block info overlay.\nUse NONE for not requiring a key to be pressed.\nDisable the similarly named option in the Visuals\nconfigs to disable the overlay completely.",
+    "litematica.config.hotkeys.comment.renderInfoOverlay": "The key that enables rendering the block info overlay.\nUse NONE for not requiring a key to be pressed,\nin addition to setting \"Allow Empty\" under the Advanced Keybind settings.\nDisable the similarly named option in the Visuals\nconfigs to disable the overlay completely.",
     "litematica.config.hotkeys.comment.renderOverlayThroughBlocks": "A hotkey to allow the overlays to render through blocks.\nThis is just a quicker way to temporarily enable\nthe same thing that the 'schematicOverlayRenderThroughBlocks' option in Visuals does.",
     "litematica.config.hotkeys.comment.rerenderSchematic": "Hotkey to refresh/redraw only the schematic, instead of\nhaving to refresh the vanilla terrain too with F3 + A",
     "litematica.config.hotkeys.comment.saveAreaAsInMemorySchematic": "Save the current Area Selection as an in-memory Schematic",
@@ -453,6 +453,7 @@
 
     "litematica.config.generic.prettyName.pickBlockEnabled": "Pick Block Hotkeys",
     "litematica.config.generic.prettyName.easyPlaceMode": "Easy Place Mode",
+    "litematica.config.generic.prettyName.entityDataSync": "Entity Data Sync",
     "litematica.config.generic.prettyName.placementRestriction": "Placement Restriction",
     "litematica.config.generic.prettyName.signTextPaste": "Sign Text Paste",
     "litematica.config.generic.prettyName.toolItemEnabled": "Tool Item Enabled",
@@ -504,6 +505,7 @@
     "litematica.error.schematic.create.no_selections": "No valid selection regions!",
 
     "litematica.error.schematic_load.cant_read_file": "Can't read the schematic file '%s' (doesn't exist or permission issue)",
+    "litematica.error.schematic_load.newer_minecraft_version": "Schematic is from a future version of Minecraft: '%d' > '%d'\nSome NBT data may be at risk of corruption.",
     "litematica.error.schematic_load.no_schematic_selected": "No Schematic file selected!",
     "litematica.error.schematic_load.no_schematic_version_information": "The schematic doesn't have version information, and can't be safely loaded!",
     "litematica.error.schematic_load.unsupported_schematic_version": "Unsupported or future schematic version '%d'",
@@ -543,6 +545,7 @@
     "litematica.error.structure_write_to_file_failed.exists": "Failed to write the structure to file '%s', file already exists",
 
     "litematica.hotkeys.category.generic_hotkeys": "Generic hotkeys",
+    "litematica.hotkeys.category.config_generic_hotkeys": "Generic hotkeys",
 
     "litematica.info.schematic_load.schematic_loaded": "Schematic '%s' successfully loaded to memory",
     "litematica.info.schematic_manager.preview.right_click_to_cancel": "- Right click the button to cancel a pending preview operation\n- Ctrl + Alt + Shift + click to set the thumbnail from an existing PNG image\n  called 'thumb.png' from the same directory where the schematic file is.",
@@ -711,6 +714,7 @@
     "litematica.gui.label.easy_place_protocol.v3": "Version 3",
 
     "litematica.gui.label.data_fixer_mode.always": "Always",
+    "litematica.gui.label.data_fixer_mode.below_1215": "Below 1.21.5 Only",
     "litematica.gui.label.data_fixer_mode.below_1205": "Below 1.20.5 Only",
     "litematica.gui.label.data_fixer_mode.below_120X": "Below 1.20.x Only",
     "litematica.gui.label.data_fixer_mode.below_119X": "Below 1.19.x Only",
@@ -777,6 +781,7 @@
     "litematica.gui.label.schematic_info.sponge_version": "Sponge Version: §f%d§r",
     "litematica.gui.label.schematic_info.vanilla_version": "Vanilla Structure",
     "litematica.gui.label.schematic_info.schema": "Minecraft: §f%s§r [Schema §f%d§r]",
+    "litematica.gui.label.schematic_info.schema.newer": "Minecraft: §c%s§r [Schema §c%d§r]",
 
     "litematica.gui.label.schematic_load.checkbox.create_placement": "Create a placement",
     "litematica.gui.label.schematic_load.hoverinfo.create_placement": "Immediately create a new placement\nand select that placement",
