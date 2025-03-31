@@ -2,11 +2,11 @@ import requests
 import os
 
 files = {
-    'litematica': 'https://github.com/sakura-ryoko/litematica/raw/refs/heads/1.21.4/src/main/resources/assets/litematica/lang/en_us.json',
-    'malilib': 'https://github.com/sakura-ryoko/malilib/raw/refs/heads/1.21.4/src/main/resources/assets/malilib/lang/en_us.json',
-    'minihud': 'https://github.com/sakura-ryoko/minihud/raw/refs/heads/1.21.4/src/main/resources/assets/minihud/lang/en_us.json',
-    'tweakeroo': 'https://github.com/sakura-ryoko/tweakeroo/raw/refs/heads/1.21.4/src/main/resources/assets/tweakeroo/lang/en_us.json',
-    'itemscroller': 'https://github.com/sakura-ryoko/itemscroller/raw/refs/heads/1.21.4/src/main/resources/assets/itemscroller/lang/en_us.json',
+    'litematica': 'https://github.com/sakura-ryoko/litematica/raw/refs/heads/1.21.5/src/main/resources/assets/litematica/lang/en_us.json',
+    'malilib': 'https://github.com/sakura-ryoko/malilib/raw/refs/heads/1.21.5/src/main/resources/assets/malilib/lang/en_us.json',
+    'minihud': 'https://github.com/sakura-ryoko/minihud/raw/refs/heads/1.21.5/src/main/resources/assets/minihud/lang/en_us.json',
+    'tweakeroo': 'https://github.com/sakura-ryoko/tweakeroo/raw/refs/heads/1.21.5/src/main/resources/assets/tweakeroo/lang/en_us.json',
+    'itemscroller': 'https://github.com/sakura-ryoko/itemscroller/raw/refs/heads/1.21.5/src/main/resources/assets/itemscroller/lang/en_us.json',
     'syncmatica': 'https://github.com/sakura-ryoko/syncmatica/raw/1.21.4/src/main/resources/assets/syncmatica/lang/en_us.json',
     'litematica-printer': 'https://github.com/sakura-ryoko/litematica-printer/raw/1.21.4/src/main/resources/assets/litematica-printer/lang/en_us.json'
 }
